@@ -215,6 +215,10 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.9
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.min.fling_velocity=160 \
+    ro.max.fling_velocity=20000
+
 # Doze mode
 PRODUCT_PACKAGES += \
     XiaomiDoze
