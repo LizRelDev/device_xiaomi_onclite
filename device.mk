@@ -365,6 +365,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.1.vendor
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     $(LOCAL_PATH)/configs/resources/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Public Libraries
