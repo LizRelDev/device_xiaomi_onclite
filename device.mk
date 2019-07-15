@@ -153,6 +153,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/resources/device_features/onc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/onc.xml \
     $(LOCAL_PATH)/configs/resources/device_features/onc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/onclite.xml
 
+# Charger
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.dalvik.vm.native.bridge=0
