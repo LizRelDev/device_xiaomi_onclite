@@ -24,3 +24,6 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
+
+# Sensors
+/(mnt/vendor)/persist/sensors(/.*)?                                     u:object_r:persist_sensors_file:s0
