@@ -454,6 +454,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    wifi.interface=wlan0
+
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libnl
