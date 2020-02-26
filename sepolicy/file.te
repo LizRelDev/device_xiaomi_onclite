@@ -21,3 +21,5 @@ type rild_file, file_type, vendor_file_type;
 # Rmt
 type debugfs_rmt, debugfs_type, fs_type;
 
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
