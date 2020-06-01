@@ -183,6 +183,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiDoze
 
+# Display calibration
+PRODUCT_PACKAGES += \
+    qdcm_calib_data_boe_hx8394f_video_mode_dsi_panel.xml \
+    qdcm_calib_data_CSOT_otm1901a_video_mode_dsi_panel.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
