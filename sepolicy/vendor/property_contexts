@@ -10,3 +10,6 @@ sys.fp.goodix		   u:object_r:fp_prop:s0
 sys.fp.vendor	           u:object_r:fp_prop:s0
 persist.sys.fp.            u:object_r:fp_prop:s0
 persist.vendor.sys.fp.     u:object_r:fp_prop:s0
+
+persist.vendor.camera.rearMain.fuseID        u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.frontMain.fuseID       u:object_r:vendor_camera_prop:s0
