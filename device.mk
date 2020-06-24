@@ -186,7 +186,8 @@ PRODUCT_PACKAGES += \
 # Display calibration
 PRODUCT_PACKAGES += \
     qdcm_calib_data_boe_hx8394f_video_mode_dsi_panel.xml \
-    qdcm_calib_data_CSOT_otm1901a_video_mode_dsi_panel.xml
+    qdcm_calib_data_CSOT_otm1901a_video_mode_dsi_panel.xml \
+    SVIConfig.xml
 
 # DRM
 PRODUCT_PACKAGES += \

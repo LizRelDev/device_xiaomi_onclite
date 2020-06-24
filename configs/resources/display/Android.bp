@@ -23,3 +23,9 @@ prebuilt_etc {
     src: "qdcm_calib_data_CSOT_otm1901a_video_mode_dsi_panel.xml",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "SVIConfig.xml",
+    src: "SVIConfig.xml",
+    vendor: true,
+}
