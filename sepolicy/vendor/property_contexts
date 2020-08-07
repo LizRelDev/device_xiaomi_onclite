@@ -11,5 +11,14 @@ sys.fp.vendor	           u:object_r:fp_prop:s0
 persist.sys.fp.            u:object_r:fp_prop:s0
 persist.vendor.sys.fp.     u:object_r:fp_prop:s0
 
+# Vendor camera
+persist.vendor.camera.archdr.force           u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.eis.enabled            u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.flash.exif.correct     u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.pdaf.enable            u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.vidhance.eis.enabled   u:object_r:vendor_camera_prop:s0
+persist.vendor.vidhance.dmbr.mode            u:object_r:vendor_camera_prop:s0
+
+# Camera fuse ID
 persist.vendor.camera.rearMain.fuseID        u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.frontMain.fuseID       u:object_r:vendor_camera_prop:s0
