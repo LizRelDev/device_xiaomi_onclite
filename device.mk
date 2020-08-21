@@ -406,7 +406,8 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # RRO's
 PRODUCT_PACKAGES += \
-    WifiOverlay
+    WifiOverlay \
+    TetheringConfigOverlay
 
 # USB HAL
 PRODUCT_PACKAGES += \
