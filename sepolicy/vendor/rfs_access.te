@@ -1,0 +1,2 @@
+allow rfs_access mnt_vendor_file:dir r_dir_perms;
+allow rfs_access mnt_vendor_file:file create_file_perms;
