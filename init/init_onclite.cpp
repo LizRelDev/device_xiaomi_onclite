@@ -24,7 +24,10 @@
 #include "property_service.h"
 #include "vendor_init.h"
 
-using android::init::property_set;
+int property_set(const char *key, const char *value) {
+    return __system_property_set(key, value);
+}
+
 using std::string;
 
 void property_override(string prop, string value) {
@@ -37,7 +40,7 @@ void property_override(string prop, string value) {
 }
 
 void load_props(string device, string model) {
-    string RO_PROP_SOURCES[] = { "", "odm.", "system.", "vendor." };
+    string RO_PROP_SOURCES[] = { "", "odm.", "system.", "vendor.", "product.", "bootimage.", "system_ext." };
 
     for (const string &source : RO_PROP_SOURCES) {
         property_override(string("ro.product.") + source + string("name"), device);
