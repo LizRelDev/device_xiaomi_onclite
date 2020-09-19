@@ -1095,6 +1095,8 @@ vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 
 # GPS - daisy (QKQ1.191002.002)
 -vendor/app/CACertService/CACertService.apk|69e2e74add9fd8a8110812042408700bcb7a0852
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
+-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 -vendor/lib64/libloc_api_v02.so|b8649d539b3ba48d3ed63dfb35e2ee827431ffa1
 vendor/bin/garden_app|f0a1f082c2abaf0ffda363e52361587f1c8a7492
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|7f7006829005658c9b89c61ac02f107d3d6fe470
@@ -1106,8 +1108,6 @@ vendor/bin/xtwifi-client|7d737eca493d57e29cb44e0bc658dda93fc44fe4
 vendor/bin/xtwifi-inet-agent|58749dc8fc9fdce0c184f3689d50299734b0f988
 vendor/etc/cacert_location.pem|6a05f324e7d9ff584811e62aabeb6d89a5239bbe
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/lib/libcacertclient.so|120cce70d1a589b76fff76a3d8c0bc4f4a2e31f2
 vendor/lib/libjnihelper.so|78a8dd816959955b699c0273b9f528b1aecc2e93
 vendor/lib/vendor.qti.gnss@1.0.so|2fbfffb280becb4c890787958d5471c887e0e29e
