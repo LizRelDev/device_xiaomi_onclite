@@ -1,6 +1,16 @@
 [
  {
-   "repository": "android_kernel_xiaomi_onclite",
-   "target_path": "kernel/xiaomi/onclite"
+   "remote"      : "github",
+   "repository"  : "hadad/android_kernel_xiaomi_onc",
+   "branch"      : "11",
+   "clone-depth" : "1",
+   "target_path" : "kernel/xiaomi/onclite"
+ },
+ {
+   "remote"      : "github",
+   "repository"  : "hadad/android_vendor_xiaomi_onclite",
+   "branch"      : "11",
+   "clone-depth" : "1",
+   "target_path" : "vendor/xiaomi/onclite"
  }
 ]

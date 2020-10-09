@@ -26,13 +26,11 @@
 #
 
 on boot
-
-    # add for goodix 
+    # Goodix fingerprint sensor
     chown system system /dev/goodix_fp
     chmod 0644 /dev/goodix_fp
-    
 
-    # add for fpc 
+    # FPC fingerprint sensor
     chown system system /sys/devices/platform/soc/soc:fpc1020/compatible_all
     chmod 0664 /sys/devices/platform/soc/soc:fpc1020/compatible_all
     chown system system /sys/devices/platform/soc/soc:fpc1020/irq
@@ -46,8 +44,8 @@ on boot
 
 
 on property:sys.fp.vendor=goodix
-   setprop ro.boot.fpsensor goodix
-   setprop persist.sys.fp.vendor goodix
+    setprop ro.boot.fpsensor goodix
+    setprop persist.sys.fp.vendor goodix
 
 on property:sys.fp.vendor=FPC
-   setprop ro.boot.fpsensor fpc
+    setprop ro.boot.fpsensor fpc
