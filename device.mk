@@ -290,6 +290,8 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
     ims-ext-common \
     ims_ext_common.xml
 
