@@ -155,7 +155,8 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.charger.enable_suspend=true
+    ro.charger.enable_suspend=true \
+    ro.charger.disable_init_blank=true
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
