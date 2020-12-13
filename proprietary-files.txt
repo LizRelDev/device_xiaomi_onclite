@@ -1610,9 +1610,9 @@ vendor/lib64/libsensor1.so|70255bec42ac093d4c5dc24411843f21e045bcec
 vendor/lib64/libsensor_reg.so|3539a0e7888aa187e3d2bbdd357ff183ae6dfdf3
 vendor/lib64/sensor_calibrate.so|03fefe93d634573f333efc2674dfede9bd0e1867
 
-# Sensors [SSC]
-vendor/lib/sensors.ssc.so|3e8c49cde6e3dffacf1b5e163ff8a158ca7897d8
-vendor/lib64/sensors.ssc.so|db03172dc49188e50eb88f4cf9c43d762cb118a9
+# Sensors [SSC] - daisy (QKQ1.191002.002)
+vendor/lib/sensors.ssc.so|302e5aee38e1296dfba32b681681492d5070f509
+vendor/lib64/sensors.ssc.so|9affbc5130223a63c7c8ee33a1b7408d739e1466
 
 # Soter - daisy (QKQ1.191002.002)
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
