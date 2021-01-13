@@ -122,7 +122,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    tinymix
+    tinymix \
+    libnbaio
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
