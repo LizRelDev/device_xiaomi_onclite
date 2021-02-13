@@ -2,7 +2,7 @@
   {
     "repository": "NusantaraROM-Devices/vendor_xiaomi_onclite",
     "target_path": "vendor/xiaomi/onclite",
-    "branch": "10",
+    "branch": "11",
     "remote": "github"
   },
   {
@@ -21,7 +21,7 @@
     "remote": "priv",
     "repository": "android_packages_apps_NusantaraParts",
     "target_path": "packages/apps/NusantaraParts", 
-    "branch": "4.9"
+    "branch": "11"
    },
    {
      "remote": "priv",
