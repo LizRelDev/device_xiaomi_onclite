@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "NusantaraROM-Devices/vendor_xiaomi_onclite",
+    "target_path": "vendor/xiaomi/onclite",
+    "branch": "10",
+    "remote": "github"
+  },
+  {
+    "repository": "MumetNgoding/BrynKernel-AOSP",
+    "target_path": "kernel/xiaomi/onclite",
+    "branch": "R",
+    "remote": "github"
+  },
+{
+        "remote"	    : "github",
+        "repository"	: "gengkapak/gengkapak-clang",
+        "target_path"	: "prebuilts/clang/host/linux-x86/clang-GengKapak",
+        "branch"	    : "13"
+    },
+  {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraParts",
+    "target_path": "packages/apps/NusantaraParts", 
+    "branch": "4.9"
+   },
+   {
+     "remote": "priv",
+     "repository": "android_packages_apps_NusantaraPapers",
+     "target_path": "packages/apps/NusantaraPapers",
+     "branch": "10"
+   }
+]
