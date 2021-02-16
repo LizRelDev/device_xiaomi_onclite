@@ -153,6 +153,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/resources/device_features/onc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/onc.xml \
     $(LOCAL_PATH)/configs/resources/device_features/onc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/onclite.xml
 
+PRODUCT_PACKAGES += \
+    GoogleCameraGo \
+    libDrCheckerJni \
+    libDrishtiJni \
+    libExposureFusionJni \
+    libNightMode_jni \
+    libfilterframework_jni \
+    libyuv-jni \
+    com.google.android.apps.cameralite
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.privapp.list=com.google.android.apps.cameralite \
+    persist.camera.privapp.list=com.google.android.apps.cameralite 
+
 # Charger
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.charger.enable_suspend=true \

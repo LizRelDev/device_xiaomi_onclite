@@ -186,7 +186,7 @@ sys.truly_otm1901a_length=42
 #enable aux and dual-cam
 persist.vendor.camera.expose.aux=1
 #expose aux camera for below packages
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.apps.cameralite
 
 #set cutoff voltage to 3400mV
 ro.cutoff_voltage_mv=3400
