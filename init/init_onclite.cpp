@@ -14,21 +14,24 @@
   limitations under the License.
  */
 
-#include <android-base/properties.h>
+#include <cstdlib>
+#include <stdlib.h>
+#include <fstream>
+#include <string.h>
+#include <sys/sysinfo.h>
+#include <unistd.h>
 
-#include <string>
+#include <android-base/properties.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
 
-#include <sys/sysinfo.h>
-#include "property_service.h"
 #include "vendor_init.h"
+#include "property_service.h"
 
-int property_set(const char *key, const char *value) {
-    return __system_property_set(key, value);
-}
 
+using android::base::GetProperty;
 using std::string;
+
 
 void property_override(string prop, string value) {
     auto pi = (prop_info*) __system_property_find(prop.c_str());
@@ -38,6 +41,7 @@ void property_override(string prop, string value) {
     else
         __system_property_add(prop.c_str(), prop.size(), value.c_str(), value.size());
 }
+
 
 void load_props(string device, string model) {
     string RO_PROP_SOURCES[] = { "", "odm.", "system.", "vendor.", "product.", "bootimage.", "system_ext." };
@@ -49,28 +53,30 @@ void load_props(string device, string model) {
     }
 }
 
+
 void set_dalvik_properties() {
     struct sysinfo sys;
     sysinfo(&sys);
 
     if (sys.totalram > 3072ull * 1024 * 1024) {
         // Set for 4GB RAM
-        property_set("dalvik.vm.heapstartsize", "8m");
-        property_set("dalvik.vm.heapgrowthlimit", "192m");
-        property_set("dalvik.vm.heapsize", "512m");
-        property_set("dalvik.vm.heaptargetutilization", "0.6");
-        property_set("dalvik.vm.heapmaxfree", "16m");
-        property_set("dalvik.vm.heapminfree", "8m");
+        property_override("dalvik.vm.heapstartsize", "8m");
+        property_override("dalvik.vm.heapgrowthlimit", "192m");
+        property_override("dalvik.vm.heapsize", "512m");
+        property_override("dalvik.vm.heaptargetutilization", "0.6");
+        property_override("dalvik.vm.heapmaxfree", "16m");
+        property_override("dalvik.vm.heapminfree", "8m");
     } else {
         // Set for 2/3GB RAM
-        property_set("dalvik.vm.heapstartsize", "8m");
-        property_set("dalvik.vm.heapgrowthlimit", "192m");
-        property_set("dalvik.vm.heapsize", "512m");
-        property_set("dalvik.vm.heaptargetutilization", "0.75");
-        property_set("dalvik.vm.heapmaxfree", "8m");
-        property_set("dalvik.vm.heapminfree", "512k");
+        property_override("dalvik.vm.heapstartsize", "8m");
+        property_override("dalvik.vm.heapgrowthlimit", "192m");
+        property_override("dalvik.vm.heapsize", "512m");
+        property_override("dalvik.vm.heaptargetutilization", "0.75");
+        property_override("dalvik.vm.heapmaxfree", "8m");
+        property_override("dalvik.vm.heapminfree", "512k");
     }
 }
+
 
 void set_avoid_gfxaccel_config() {
     struct sysinfo sys;
@@ -78,11 +84,13 @@ void set_avoid_gfxaccel_config() {
 
     if (sys.totalram <= 2048ull * 1024 * 1024) {
         // Reduce memory footprint
-        property_set("ro.config.avoid_gfx_accel", "true");
+        property_override("ro.config.avoid_gfx_accel", "true");
     }
 }
 
+
 void vendor_load_properties() {
+    // Show correct device and model name as per boot cert
     string boot_cert = android::base::GetProperty("ro.boot.product.cert", "");
 
     if (boot_cert == "M1810F6LG" || boot_cert == "M1810F6LH" || boot_cert == "M1810F6LI"
@@ -91,6 +99,9 @@ void vendor_load_properties() {
     else
         load_props("onc", "Redmi Y3");
 
+    // Set dalvik-heap configurations based on RAM variant
     set_dalvik_properties();
+
+    // Enable config_avoidGfxAccel for 2GB variants
     set_avoid_gfxaccel_config();
 }
