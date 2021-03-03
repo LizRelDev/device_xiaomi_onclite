@@ -588,3 +588,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
+
+# SoC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=MSM8953
