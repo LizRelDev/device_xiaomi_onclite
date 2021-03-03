@@ -1600,19 +1600,19 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 
 # Sensors
-vendor/bin/sensors.qti|519fc0c42b2f5e108aab09131436a717c3becc1f
-vendor/lib/hw/activity_recognition.msm8953.so|c1cd23048a9fadf6174d6df7bc005df277af1461
-vendor/lib/libsensor1.so|7ffe4d4304f90fee4057a0d8dfe47514cd4a9be1
-vendor/lib/libsensor_reg.so|0976a42ae4b5778065f907ead66e7c56d7f54fac
-vendor/lib/sensor_calibrate.so|79d2c01766d9057881c5621013855d58b69156a4
-vendor/lib64/hw/activity_recognition.msm8953.so|ca75881d15e10b4888f6e51ccb16301ca7843440
-vendor/lib64/libsensor1.so|e76f3cd261995713e6e631f239e80d8ca0b91323
-vendor/lib64/libsensor_reg.so|e37ce03b2f88623c03defe20b2a38ee58b4e0e42
-vendor/lib64/sensor_calibrate.so|84df66acfc5b4966d6280ea27e8be05ac5620498
+vendor/bin/sensors.qti|fc188cb3cd81919a0a30c39382d933b151f85aff
+vendor/lib/hw/activity_recognition.msm8953.so|60ed5922a2d73f1cda71f7da8dbb702f5dd55df0
+vendor/lib/libsensor1.so|432973997776d0d7a88670a9c5d6ac2e44c7903d
+vendor/lib/libsensor_reg.so|ba59e280ae94d491f1f6c19b4e33f477d0bb50c2
+vendor/lib/sensor_calibrate.so|59c6e85c77464209885cfd459e6d780456c861f9
+vendor/lib64/hw/activity_recognition.msm8953.so|fe295d5a9a8d9aad9f132c2ee40b592e7db68046
+vendor/lib64/libsensor1.so|70255bec42ac093d4c5dc24411843f21e045bcec
+vendor/lib64/libsensor_reg.so|3539a0e7888aa187e3d2bbdd357ff183ae6dfdf3
+vendor/lib64/sensor_calibrate.so|03fefe93d634573f333efc2674dfede9bd0e1867
 
 # Sensors [SSC]
-vendor/lib/sensors.ssc.so|da2563ddac5a3867a275b33dea6bcf9e0eb43d31
-vendor/lib64/sensors.ssc.so|0a93f0e680f0deacf59a7438c5eb611e0d5fd079
+vendor/lib/sensors.ssc.so|3e8c49cde6e3dffacf1b5e163ff8a158ca7897d8
+vendor/lib64/sensors.ssc.so|db03172dc49188e50eb88f4cf9c43d762cb118a9
 
 # Soter - daisy (QKQ1.191002.002)
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
