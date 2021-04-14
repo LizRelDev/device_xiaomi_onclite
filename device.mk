@@ -469,7 +469,8 @@ QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)/configs/resources/qcom
 PRODUCT_PACKAGES += \
     CustomKeyguardOverlay \
     WifiOverlay \
-    TetheringConfigOverlay
+    TetheringConfigOverlay \
+    CarrierConfigOverlay
 
 # USB HAL
 PRODUCT_PACKAGES += \
