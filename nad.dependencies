@@ -1,14 +1,14 @@
 [
  {
    "remote"      : "github",
-   "repository"  : "hadad/android_kernel_xiaomi_onc",
+   "repository"  : "NusantaraROM-Devices/kernel_xiaomi_onclite",
    "branch"      : "11",
    "clone-depth" : "1",
    "target_path" : "kernel/xiaomi/onclite"
  },
  {
    "remote"      : "github",
-   "repository"  : "hadad/android_vendor_xiaomi_onclite",
+   "repository"  : "NusantaraROM-Devices/vendor_xiaomi_onclite",
    "branch"      : "11",
    "clone-depth" : "1",
    "target_path" : "vendor/xiaomi/onclite"
