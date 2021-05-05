@@ -78,17 +78,6 @@ void set_dalvik_properties() {
 }
 
 
-void set_avoid_gfxaccel_config() {
-    struct sysinfo sys;
-    sysinfo(&sys);
-
-    if (sys.totalram <= 2048ull * 1024 * 1024) {
-        // Reduce memory footprint
-        property_override("ro.config.avoid_gfx_accel", "true");
-    }
-}
-
-
 void vendor_load_properties() {
     // Show correct device and model name as per boot cert
     string boot_cert = android::base::GetProperty("ro.boot.product.cert", "");
@@ -101,7 +90,4 @@ void vendor_load_properties() {
 
     // Set dalvik-heap configurations based on RAM variant
     set_dalvik_properties();
-
-    // Enable config_avoidGfxAccel for 2GB variants
-    set_avoid_gfxaccel_config();
 }
