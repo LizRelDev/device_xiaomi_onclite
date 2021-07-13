@@ -9,3 +9,6 @@ get_prop(system_server, fp_prop);
 
 # Smart charging
 allow system_server sysfs_battery_supply:file rw_file_perms;
+
+# Alarm
+allow system_server vendor_alarm_boot_prop:file { read open getattr };

@@ -1,3 +1,7 @@
 # FPS Info
 allow platform_app sysfs_fps:file { getattr open read };
 allow platform_app sysfs_graphics:dir search;
+
+# Alarm
+allow platform_app hal_alarm_qti_default:binder call;
+allow platform_app hal_alarm_qti_hwservice:hwservice_manager find;
