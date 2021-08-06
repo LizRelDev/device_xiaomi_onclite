@@ -1008,16 +1008,17 @@ vendor/lib/vendor.qti.esepowermanager@1.0.so|07b5def050ef3200ed8946bf33be4f60049
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|c96a5e5fad2c656a991b42b1a6354c4b654810fc
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|165a6b6f6fec38055a178d2d5903de5756a44571
 
-# FM Radio - daisy (QKQ1.191002.002)
--product/lib/vendor.qti.hardware.fm@1.0.so|a090651122fcad265ae7562c88dca746f893ad36
--product/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
-lib/fm_helium.so|feb4819f1898c67dfda4f965d7cc2711c74d1a99
-lib/libfm-hci.so|7700b02faa484ff682c618402f62b86bf8588db2
-lib64/fm_helium.so|bc9f6314528630c060b593cef4a8cec786b22467
-lib64/libfm-hci.so|589e9e290acfa18a49deba33606ed158d5e7f898
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|5da074c88802633f64e2b9fe2013e2271f707e7b
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|9d27a7a6cea72a48739e741e749bff2e194d4510
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
+# FM Radio - LA.UM.9.6.2.r1-04200-89xx.0
+system_ext/lib/fm_helium.so|e1393e3bc7b9778551db1ed5be99d0dadc6d2b0b
+system_ext/lib/libfm-hci.so|fe72e2f500a57e2a46cd4ed66649509b5c15e27a
+system_ext/lib/vendor.qti.hardware.fm@1.0.so|847a077921ba3c64aeb5dd47ccad1697a1ad2fbb
+system_ext/lib64/fm_helium.so|55ef376cc802574df92025bebaba1cebcc74a918
+system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|b6bdde84366a79b7d49f98a2eef932dff4f87981
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b9d98d1b90210dabf3c7cf2f9b7eb1883f91be1a
+vendor/lib/vendor.qti.hardware.fm@1.0.so|6f191e9c162056a6dd3b743ed14a3fd9bf3acdb8
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|66c50040a46dfa7fcefda85ddd009bff2b76f6b8
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|f7494923e84b136a44f02699082a7e0a380f94e9
 
 # Fingerprint
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|de21aab25cc4863075354dc985fb39bec02db4cf
