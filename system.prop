@@ -55,3 +55,17 @@ ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+
+# WFD
+persist.debug.wfd.enable=1
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Battery Saving
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
+
+# Notch Overlay
+ro.miui.notch=1
+
