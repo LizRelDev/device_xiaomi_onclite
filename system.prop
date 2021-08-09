@@ -161,9 +161,6 @@ ro.emmc_size=16GB
 #force HAL1 for below packages
 vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 
-#Enable FR27607-RIL to send ONLINE cmd in bootup
-#persist.radio.poweron_opt=1
-
 #system props for SurfaceFlinger
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
