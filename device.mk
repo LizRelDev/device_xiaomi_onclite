@@ -87,7 +87,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml  \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
-# ART
+# ART / Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.heapminfree=4m \
+    dalvik.vm.heapstartsize=16m
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat64.enabled=true \
     ro.sys.fw.dex2oat_thread_count=8 \
@@ -202,10 +208,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.charger.enable_suspend=true \
     ro.charger.disable_init_blank=true
-
-# Dalvik
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.dalvik.vm.native.bridge=0
 
 # Component overrides
 PRODUCT_COPY_FILES += \
