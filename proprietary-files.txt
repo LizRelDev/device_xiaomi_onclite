@@ -996,7 +996,7 @@ vendor/lib/vendor.qti.esepowermanager@1.0.so|07b5def050ef3200ed8946bf33be4f60049
 vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|c96a5e5fad2c656a991b42b1a6354c4b654810fc
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|165a6b6f6fec38055a178d2d5903de5756a44571
 
-# FM Radio - LA.UM.9.6.2.r1-04200-89xx.0
+# FM Radio - LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib/fm_helium.so|e1393e3bc7b9778551db1ed5be99d0dadc6d2b0b
 system_ext/lib/libfm-hci.so|fe72e2f500a57e2a46cd4ed66649509b5c15e27a
 system_ext/lib/vendor.qti.hardware.fm@1.0.so|847a077921ba3c64aeb5dd47ccad1697a1ad2fbb
@@ -1005,7 +1005,7 @@ system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so|b6bdde84366a79b7d49f98a2eef932dff4f87981
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b9d98d1b90210dabf3c7cf2f9b7eb1883f91be1a
 vendor/lib/vendor.qti.hardware.fm@1.0.so|6f191e9c162056a6dd3b743ed14a3fd9bf3acdb8
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|66c50040a46dfa7fcefda85ddd009bff2b76f6b8
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|7eb9a18ddc6b8199aa81770add4998ca0886c2a0
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|f7494923e84b136a44f02699082a7e0a380f94e9
 
 # Fingerprint
@@ -1328,8 +1328,8 @@ vendor/bin/pm-service|8a521f14576d0d2edf03b4500a54379d37e15d4e
 vendor/lib/libperipheral_client.so|b75a6adac094ddcd6ded9415cae83e18d1e7e5d0
 vendor/lib64/libperipheral_client.so|20c8ab21fe28e41f60b59af0ba72de9f6b1996d2
 
-# Power-off alarm - LA.UM.9.6.2.r1-04200-89xx.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+# Power-off alarm - LA.UM.9.6.2.r1-03600-89xx.0
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|d00cdfa02d6fcaea819e4cb7eb8ba502bc92be4c
 -system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6f58edbe898a0582b02b688ec8a47a57a50707ec
 vendor/bin/power_off_alarm|a22dad49a912473d92bf9c111ef7de6dd927b6f2
@@ -1674,9 +1674,9 @@ vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 vendor/lib/hw/thermal.msm8953.so|a1819a519f45ce8c7b8243dc5d3cda1d214c23bd
 vendor/lib64/hw/thermal.msm8953.so|9de56e5cccbb4cf1d507877ec328db2bd229c2c2
 
-# Time services - LA.UM.9.6.2.r1-04200-89xx.0
+# Time services - LA.UM.9.6.2.r1-03600-89xx.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
-vendor/bin/time_daemon|737bbb156a23d114aafd4b4bb9adc38e8d965391
+vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
 vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
 vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
