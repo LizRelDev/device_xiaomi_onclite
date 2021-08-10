@@ -451,8 +451,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    camera.msm8953_shim \
-    libshim_dpmframework
+    camera.msm8953_shim
 
 # Thermal
 PRODUCT_PACKAGES += \
