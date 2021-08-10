@@ -1637,20 +1637,28 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|8613a107e2e318f67d278
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008c0bcc9f09172eb70dddc458f4790b
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 
-# Sensors
-vendor/bin/sensors.qti|fc188cb3cd81919a0a30c39382d933b151f85aff
-vendor/lib/hw/activity_recognition.msm8953.so|60ed5922a2d73f1cda71f7da8dbb702f5dd55df0
-vendor/lib/libsensor1.so|432973997776d0d7a88670a9c5d6ac2e44c7903d
-vendor/lib/libsensor_reg.so|ba59e280ae94d491f1f6c19b4e33f477d0bb50c2
-vendor/lib/sensor_calibrate.so|59c6e85c77464209885cfd459e6d780456c861f9
-vendor/lib64/hw/activity_recognition.msm8953.so|fe295d5a9a8d9aad9f132c2ee40b592e7db68046
-vendor/lib64/libsensor1.so|70255bec42ac093d4c5dc24411843f21e045bcec
-vendor/lib64/libsensor_reg.so|3539a0e7888aa187e3d2bbdd357ff183ae6dfdf3
-vendor/lib64/sensor_calibrate.so|03fefe93d634573f333efc2674dfede9bd0e1867
+# Sensors - LA.UM.9.6.2.r1-03600-89xx.0
+system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|81934fd454fd30282ef1a8a90b7374317f6c42de
+system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|32257292ed8c5b2e2f905571b82bb26383a1a041
+vendor/bin/sensors.qti|2fcd877588973b5088108a7f5e85fdbae5270423
+vendor/lib/hw/activity_recognition.msm8953.so|b8e9528fb29ea3457151e78a40a37920e47bb0df
+vendor/lib/libsensor1.so|5efe912d0fb9cb398038501b9324497309c397fc
+vendor/lib/libsensor_reg.so|733a12b41dc0751b54c01a9ad980f0d039e45ab2
+vendor/lib/libsensor_thresh.so|3bb866371bfef90b5a606797f1a52df858882e9f
+vendor/lib/libsensor_user_cal.so|93f881be5b50f3ef12c07d82f5b29885b10dd80f
+vendor/lib/sensor_calibrate.so|d621d8951f66b82cc2f22e1e4673c74180480c2a
+vendor/lib64/hw/activity_recognition.msm8953.so|99a419a6afa3e5b95c050559841304f4fd427de4
+vendor/lib64/libsensor1.so|912b29a7ef579bee14ba7cdf0a7eff045eaefd14
+vendor/lib64/libsensor_reg.so|b8cf5b75c30be2a591d69c84fe5639958b1f6569
+vendor/lib64/libsensor_thresh.so|2cd018f8198228c73992829f5e7f618ecbf7106e
+vendor/lib64/libsensor_user_cal.so|9493f9495f170ab043b0ea9fec8d0bba0cd7b9d9
+vendor/lib64/sensor_calibrate.so|219ee0b1bdcc6a3f0b9261f6fc31838916856c99
 
-# Sensors [SSC] - daisy (QKQ1.191002.002)
-vendor/lib/sensors.ssc.so|302e5aee38e1296dfba32b681681492d5070f509
-vendor/lib64/sensors.ssc.so|9affbc5130223a63c7c8ee33a1b7408d739e1466
+# Sensors [SSC] - LA.UM.9.6.2.r1-03600-89xx.0
+vendor/lib/libssc_default_listener.so|38cc07c17d39519c7e18d82859e37685df95d30a
+vendor/lib/sensors.ssc.so|f8483b2fcc2c11e838631be3322f990be60541cf
+vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
+vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
 
 # Soter - daisy (QKQ1.191002.002)
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
