@@ -1705,6 +1705,27 @@ vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
 vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
 vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
+# Touchscreen
+vendor/etc/hbtp/hbtpcfg.dat|5e1fa7bd844069d712dc5a5d14313fe095df4409
+vendor/etc/hbtp/hbtpcfg2.dat|e7ed701f161931e8b3cd73cf156f307f2d976a02
+vendor/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat|b49f5206fe98121a3a578b88de0c096964207510
+vendor/etc/hbtp/hbtpcfg_msm8953_800s_fhd.dat|e87b075dcd7e36fdc4c3bed3666a5712e1924c9f
+vendor/etc/hbtp/hbtpcfg_sdm450_801s_fhdp.dat|33825268b2601c10c2e7699eb12ea912b35b5fa8
+vendor/etc/hbtp/loader.cfg|31d256b2945934da327e63925ca01ebb1d5ed1d4
+vendor/etc/hbtp/qtc800h.bin|7c9c4a06f059ba08e65e02a339ee6d40c4dd5516
+vendor/etc/hbtp/qtc800s_dsp.bin|5a14812ef2f02836e4d44338098a6ae47409b912
+vendor/etc/hbtp/qtc801s_450.bin|aeed780565fe45f1ffc196e1cd01808fd61ba9b8
+vendor/lib/libhbtpclient.so|6177eabb0d7e9846a869860babd1ed65e0bc028a
+vendor/lib/libhbtpdsp.so|39279087360315d138598f681e156c49c2a20308
+vendor/lib/libhbtpfrmwk.so|07664917f10d5499df7c561067012af549c01f7a
+vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so|b05539bf4e22ea63dad995206415ab28e914428b
+vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|bbcdb2858391497f8d561c75e0690203c3f32871
+vendor/lib64/libhbtpclient.so|6bfd8541ecd61580c2e28d8d0461c0a68de117cd
+vendor/lib64/libhbtpdsp.so|c8e1517d77db87944e658851225ac9f4c032a826
+vendor/lib64/libhbtpfrmwk.so|d24713563f4d1f7a9de2c66f164e717820b16caf
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so|d42ab983d7b7dbb047c9e931af2e2a950a71a8e4
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|28be3862c2f8dc1eefbd64e1b256726cad890c00
+
 # Voice - daisy (QKQ1.191002.002)
 vendor/lib/vendor.qti.voiceprint@1.0.so|b70091c7b738394468b7d732df283d23a3975f46
 vendor/lib64/vendor.qti.voiceprint@1.0.so|aeca80d0859dd1084b4a6585779d79b48ae9aa76
