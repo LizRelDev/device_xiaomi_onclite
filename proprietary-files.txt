@@ -945,6 +945,14 @@ vendor/bin/consumerird|cedc9ed9f2a55f5ac01806db2f0943b50ef4d991
 vendor/lib/hw/consumerir.default.so|53a2466eeff7ed2f5bf484e25f761aac9dc2d6de
 vendor/lib64/hw/consumerir.default.so|3f7e08451e1690b112a03c4a8b467f354bbe3b3d
 
+# CVP
+product/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so|53ef5f3b68333e67b3f9a0d5d8313e068d0dffd6
+product/lib/vendor.qti.hardware.cvp@1.0.so|537bb5390465fdf0ac0b4521da19276a631f9c50
+product/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so|6a60473c50550e1db31d2ea8569d87dea147d299
+product/lib64/vendor.qti.hardware.cvp@1.0.so|afbc8a796b717504fa47fc52d73f6cf249100901
+vendor/lib/vendor.qti.hardware.cvp@1.0.so|95b5cc7a04ed744296f406c14531b53388b30b58
+vendor/lib64/vendor.qti.hardware.cvp@1.0.so|7a4612a52b5b75438aad176bacbead58d1fb1075
+
 # DPM - LA.UM.9.6.2.r1-03600-89xx.0
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
 framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
