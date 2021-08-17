@@ -2816,28 +2816,35 @@ system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|160f8ad491d683b1a41291a9c
 vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so|ad187f1e56251c1f121639f0d88713ec1bac3294
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|098cb52eae47416fe4e846300e9bd1a772433d4e
 
-# Radio [QCRIL] - LA.UM.9.6.2.r1-03600-89xx.0
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
+# Radio [QCRIL] - deadpool (RKQ1.200928.002)
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|c440f39da96a1ea8b486a7f15aa55c84a5e786cb
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
-system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
-vendor/bin/hw/qcrild|d25d2f28227b032fbce336abb01bf93053d85ac9
-vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
+system_ext/framework/qcrilhook.jar|dc1377a0f0f75aa6b0b7cda41f8f051ad4d4ac39
+system_ext/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so|78a5ca15995a5c80f0740959172be4d7fcd9152c
+system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|167012c551ba2c5da55ab8717da04daf960b8db8
+vendor/bin/hw/qcrild|3eea6728924507e6200a2a58c827bf1235eba28f
+vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
+vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
+vendor/lib/libqcrilFramework.so|737dc05e8e3bb6c9a8777005de90ce0227bf8bad
+vendor/lib/libqcrildatactl.so|c49734b9c269ff9415f396d49d41a79b93ab8bd9
+vendor/lib/libril-qcril-hook-oem.so|6c6c506c60f18acab6ded90df1aae4a225a48727
+vendor/lib/qcrild_librilutils.so|445a8c1abb3928a50599b5c5b741cd8f3b28c18f
+vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so|f9c68dc696874b5f62400d0d30cf4388e10e5253
 vendor/lib64/libqcrilFramework.so|da3c0216ddad60f48b1fc90b31a6d6d1114e95be
 vendor/lib64/libqcrildatactl.so|de52eb977508a0dd0af224220fb3f718ff4b8775
-vendor/lib64/libril-qc-hal-qmi.so|75385897c070c56a8cc6d1864c06e5e113026ac8
-vendor/lib64/libril-qc-logger.so|9eed72d839a52d4347755af64e9ad0ca8095f8e5
 vendor/lib64/libril-qcril-hook-oem.so|dec0f4f4cd67c27fc0903e29c00964f9533b64ee
 vendor/lib64/qcrild_librilutils.so|69354ed8d4f5b18dc890e292bcbfec01fa37edf7
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|221657ee9420de42b656d206c93b75eb0afbb27c
-vendor/radio/qcril_database/qcril.db|6f6449bde3f6fb6b5ed6b4892272db31ea1261f9
-vendor/radio/qcril_database/upgrade/0_initial.sql|e00b243261d8941802bdea9d4e659dc5e927c216
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|12f18c644dbb3e6b7d1872032ff8f4096bccbe67
+vendor/radio/qcril_database/qcril.db|7bc9f7848e4e06817bb6b9f3acf0f24d4bf2d739
+vendor/radio/qcril_database/upgrade/0_initial.sql|d0d38c55c0ebcfeca9ca39165ff0524940bbf8c2
 vendor/radio/qcril_database/upgrade/1_version_intro.sql|67b96cb3e94737bfe271b2519b9eb5fae17373a2
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e2f20c7f02c8bd64596c24a75e
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
-vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
+vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|3ac97db16ea3590ad57e39b00e5946333984d612
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb48906b37885e060429f79c9fd6bdbf
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
+vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|2a14bfcc3ef1cd69781abbc40675f0262b7130c8
 
 # SCVE - daisy (QKQ1.191002.002)
 product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|652aa6b2b0a1f5605429e2ded12a760ce39bb26d
