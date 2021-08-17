@@ -2416,50 +2416,52 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so|3875e3bb1d9f47ab1214207bd63a66aa020a
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|0119fa4d87505bc5d9426ec8ffe56d9dd3bc9e4f
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|57d936014f89811481712ac7a08d104b85b636b5
 
-# QMI - LA.UM.9.6.2.r1-03600-89xx.0
+# QMI - deadpool (RKQ1.200928.002)
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
-system_ext/lib/libqmi_cci_system.so|620bb5cf4c17d4cd178617699b2b51a0bf46b211
-system_ext/lib64/libdiag_system.so|6881bb767efb96ff3202cf76dcdc9c7621523443
-system_ext/lib64/libqmi_cci_system.so|b3139e4d9e376ee13bf33d1a025aca4e06593922
-vendor/lib/libdsutils.so|9943982f99d05a473f8e7d969f7b3715c2e66628
+system_ext/lib/libqmi_cci_system.so|7bf69be9db61bf24c89acf1dcc68375651af37de
+system_ext/lib64/libqmi_cci_system.so|468f873d6017322c1c9070658cf0d5225bcbfc0e
+vendor/lib/libdsutils.so|cf5ca4297c9c224d1ad5bd352d2fc8a0f63ce23d
 vendor/lib/libidl.so|b15b532d3911ee91e5bd4b7c885e32af0b589947
-vendor/lib/libminkdescriptor.so|eb6a6b851198e28aa1eb3c2646467d6ae8efcd7d
-vendor/lib/libminksocket.so|b8982fdd1c4b8f64271ed34070e6fa8756ec2f2c
+vendor/lib/libminkdescriptor.so|4dfd1fad042750d9e101a8009d69e4bf3612fd05
+vendor/lib/libminksocket.so|58c94747ede86ee960f808a5bd47d579c4307754
 vendor/lib/libqcci_legacy.so|39e27fbf8b3ed8f668ea701ac58a5d0a39513bb8
-vendor/lib/libqdi.so|3b43157ef29f847e102952ad1ec1d1e048df7f4f
-vendor/lib/libqdp.so|994639c23e2c5957331ef1f452eb8d2a5f86ede2
-vendor/lib/libqmi.so|6596ff2b0e211d489c2b0d6d2a663912daca68cb
+vendor/lib/libqdi.so|9c794e771f2ae0b4f70cb8e314b33c5aa0b0b027
+vendor/lib/libqdp.so|22d42819705762bab09239c466cd709c7371b47e
+vendor/lib/libqmi.so|23a6ef976a1c16b5752236089fc635b79f2519f9
 vendor/lib/libqmi_cci.so|9c26c6054a6d700dd3fd944dadb7009000c26008
-vendor/lib/libqmi_client_helper.so|0d5bb46b321cc88d23e18de1b5b7b3d36f41cc13
-vendor/lib/libqmi_client_qmux.so|bf02a589b6530e3abba6c340e50b67fadfd26708
+vendor/lib/libqmi_client_helper.so|c7df6d9e9d992bcd31e5f3ad0639b5f4ce12d942
+vendor/lib/libqmi_client_qmux.so|36186f77cfacba4a76ab9c98e7dd7feb65eebd01
 vendor/lib/libqmi_common_so.so|8a6ca528e355675a5117264ea92f7574570ff375
-vendor/lib/libqmi_csi.so|aede7e8511d6b9500b64445621e3a8756509e9b2
+vendor/lib/libqmi_csi.so|dbe0b3a24ac777f5d4c2ce21ff37cb942e4e224a
 vendor/lib/libqmi_encdec.so|ffcfbaeb676e332e63b61402bf711fa7208928a3
-vendor/lib/libqmiservices.so|c4bda33c9c4a364155443734f7a8a7bdad462110
-vendor/lib64/libdsutils.so|138ce8b96e20097bf321badbeb532fa9005b6c3d
+vendor/lib/libqmi_legacy.so|de53cb3d62913a71b44fc2c30e6fbbf2f7ccade5
+vendor/lib/libqmiservices.so|586ee617569b87a1e74369f70d487c4b45718c94
+vendor/lib64/libdsutils.so|f536c2ea887350de0a6e6d83723d6bd1728fd176
 vendor/lib64/libidl.so|485534cc8019d0a07b89b997fbf2eb88db29190f
-vendor/lib64/libminkdescriptor.so|7175d999c4094ccee0c44d9ff268c41a475c79f7
-vendor/lib64/libminksocket.so|6173ed09700a255d461d511ffd440090a5847dd9
+vendor/lib64/libminkdescriptor.so|a919d6309c30d14f68cb57ebea82e672304122fb
+vendor/lib64/libminksocket.so|fa81f5c47ee5a1f05fee71c464095bb1e89c26fd
 vendor/lib64/libqcci_legacy.so|b24c65dd780018687d7bbce5a7707141b259f0e5
-vendor/lib64/libqdi.so|722207becdd5a5be8439c07f43afe65d8569ac45
-vendor/lib64/libqdp.so|76797cb4aa72d8908d30c43e51235b76d35b9bf4
-vendor/lib64/libqmi.so|f6ba6051f597a6b6329e1daa187eea3e9a517ad1
+vendor/lib64/libqdi.so|06da62cbee966969dc6ba98bd4e1be9364d178e5
+vendor/lib64/libqdp.so|3e4a0e68a4e38ad722d0f9091840396fe9420edd
+vendor/lib64/libqmi.so|977bc3422a1446ebda09517b5fd2ff162c799a81
 vendor/lib64/libqmi_cci.so|d35ef8e2412cb7f88887035a02ac83a10ebeaf1f
-vendor/lib64/libqmi_client_helper.so|17ec4e45af869e3440385cbb91ff992f8b95ab7b
-vendor/lib64/libqmi_client_qmux.so|96cf6262f1d1f8dde06425b74991ee79acfe7dc3
+vendor/lib64/libqmi_client_helper.so|ceaf386f300bafd2d8bc71d4dc2255ad13311986
+vendor/lib64/libqmi_client_qmux.so|3ec23f377161bb287625e52714190faa6ddf2e1e
 vendor/lib64/libqmi_common_so.so|13364998f37a22ed9b526af9afe899ba27ea8150
-vendor/lib64/libqmi_csi.so|28b7dd8906c028af98500bbab2e912d16fab455f
+vendor/lib64/libqmi_csi.so|151585196b08a2b42389dab1461314ba0c4844a1
 vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
 vendor/lib64/libqmi_legacy.so|f7fe22113d12d9992b876ea59bd1aa4042cc587b
-vendor/lib64/libqmiservices.so|7b5f68211fd577f4e2ae83bba4b54d2a436a226c
+vendor/lib64/libqmiservices.so|984d04dd1e9545948fb844943df2bfc8e8c0ab1f
 
-# QMI [diag] - LA.UM.9.6.2.r1-03600-89xx.0
-system_ext/lib/libdiag_system.so|124a1c5adba3f6a36f7a73e028477518c4675a5f
-system_ext/lib64/vendor.qti.diaghal@1.0.so|7910d27b05f266a94477718a7b6425c692609c97
+# QMI [diag] - deadpool (RKQ1.200928.002)
+system_ext/lib/libdiag_system.so|501a2cbbc4684741273b63faaa1c5907e7d12726
+system_ext/lib/vendor.qti.diaghal@1.0.so|a099b63eed13a660c6d9b95b98a3f8a13efb789a
+system_ext/lib64/libdiag_system.so|2ffbf7432be7aec6362c547dce4574d53349e1d8
+system_ext/lib64/vendor.qti.diaghal@1.0.so|c188fabf49a0fc8bfede65a701c6a8dc1a5aef40
 vendor/bin/irsc_util|c2cb91666e88000df258730cd4a0a81a207a2704
-vendor/lib/libdiag.so|e58fea073d2da7f14a84d2fd3ff59501be2f631a
-vendor/lib64/libdiag.so|4ce5001e2c426456c1ade5ebb0ca7191fe43180b
+vendor/lib/libdiag.so|b9fc5054944f7b09ceed526cc3572525b70aa61a
+vendor/lib64/libdiag.so|06dd481a7563f492713db4f2e3bc45ee581179ec
 
 # QTEE - daisy (QKQ1.191002.002)
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4d4f6f54c856ccdab0fbdda7a5064b24cf72fcd9
