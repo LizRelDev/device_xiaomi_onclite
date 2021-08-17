@@ -2808,11 +2808,13 @@ vendor/lib64/librcc.so|19bf36c92a0afa4243e7a675be75d18b9b7ddbf8
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|ac8045bd314d9cb87120296f1d6fddeb98de19fd
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161cc1bcf
 
-# Radio [IWLAN] - LA.UM.9.6.2.r1-03600-89xx.0
--vendor/app/IWlanService/IWlanService.apk|695b3fa7e70f6079cf7e90144fcb79591dff38d0
+# Radio [IWLAN] - deadpool (RKQ1.200928.002)
+-vendor/app/IWlanService/IWlanService.apk|e9a938ec2013c956607ab81d53c35a5e747ae11c
 system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|b776f0042dbb7fb5f6619dbc5b97c42248b4e4f2
-system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|b9d6e29a7563788bda8b59fa0a8899a8493e93b0
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|2946d3c30ab393ef0beabbc65445773b0ff9812a
+system_ext/lib/vendor.qti.hardware.data.iwlan@1.0.so|c18b3a977cf884713339d86ef74c5076a9adbd68
+system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|160f8ad491d683b1a41291a9cff0d32e0d0929c2
+vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so|ad187f1e56251c1f121639f0d88713ec1bac3294
+vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|098cb52eae47416fe4e846300e9bd1a772433d4e
 
 # Radio [QCRIL] - LA.UM.9.6.2.r1-03600-89xx.0
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
