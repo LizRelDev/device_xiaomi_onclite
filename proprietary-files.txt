@@ -2770,26 +2770,42 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|5a045ddcfe58845e0f0a447b4a0ecf5b29a
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|dee439bc54d7708685fcb69848d3d6471c2e9865
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|516268b5b3e044429f40b5101aa1f42563e9dcd2
 
-# Radio [IMS VT] - LA.UM.9.6.2.r1-03600-89xx.0
--system_ext/priv-app/ims/ims.apk|713c6610418979ca4f58ec69b8ee4824d15c2814
+# Radio [IMS VT] - deadpool (RKQ1.200928.002)
+-system_ext/priv-app/ims/ims.apk|c4ed5677a9b3e1230165e4fd8948bc10edeec5a4
+system_ext/lib/lib-imscamera.so|115e18a0577f0da7c84e38f74d62b532f948bbe7
+system_ext/lib/lib-imsvideocodec.so|4f6c4a8b53068fdb246ba441bb9334d4efdacdbd
+system_ext/lib/lib-imsvt.so|72f55d7b5fb27de39ae18a199073ef5cc2aa8fa9
+system_ext/lib/lib-imsvtextutils.so|db4b773f9ddf2a32a3e3331062350a0e0a80da28
+system_ext/lib/lib-imsvtutils.so|3d7164d2ffb0f07dcd8431471277874aaefd468f
+system_ext/lib/libimscamera_jni.so|16e292aa01124278b6b184751a47f46a6f366c40
+system_ext/lib/libimsmedia_jni.so|0f56b5901d90a2a9343d75457113b802aa80097e
+system_ext/lib/vendor.qti.imsrtpservice@3.0.so|a5318e8e9b4465cb9f5ff5d322461a5ba53a6f91
 system_ext/lib64/lib-imscamera.so|53b2b35ac8bd114ced7771d71d9632fe91776989
-system_ext/lib64/lib-imsvideocodec.so|cc1bd2106c1eeabddbee9c61ab11cd2748af4dac
-system_ext/lib64/lib-imsvt.so|bdcdb98e61f9fd8a671b68119ff9892d4b702fc4
-system_ext/lib64/lib-imsvtextutils.so|0aadc4666d6e68429fcdd2db4bff1bf48538a155
-system_ext/lib64/lib-imsvtutils.so|f2c271167414db2456ac331b2ec23a728608b92e
+system_ext/lib64/lib-imsvideocodec.so|daba7254c52a613f2c3a4a000447b42f2ab2abce
+system_ext/lib64/lib-imsvt.so|72c6806032e432c4b40ab117fc1d5a34635bf114
+system_ext/lib64/lib-imsvtextutils.so|69a9466876cea5148dcde702c00c75bea0c98520
+system_ext/lib64/lib-imsvtutils.so|d1bc74527ac502a0b31bfaed47c97ce36d41cd78
 system_ext/lib64/libimscamera_jni.so|217354bfe6d1e1736572218b1a34468937544350
 system_ext/lib64/libimsmedia_jni.so|c804adc4d7224303a53f6270e6c1cf9319008a05
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|7157c5a2852683df0a50a588a09b7e5a0c5688da
-vendor/bin/ims_rtp_daemon|fe5212b0a45ada6ad3087d8bd7e769ed108a750a
+vendor/bin/ims_rtp_daemon|74f1d2ec4bc187278e07d4e9a37c3f58505804da
 vendor/etc/init/ims_rtp_daemon_legacy.rc|104b2a879db4d3dd44e74a3d7f6e69f6972c9129
 vendor/etc/seccomp_policy/imsrtp.policy|7ea8b4012da7bde98fc91bd882185b32784793cc
-vendor/lib64/lib-imsdpl.so|f2f1db2c01ba2b586df54414b3e88c3922d25d44
-vendor/lib64/lib-imsvtcore.so|cdcf34a515027f75efe8f1db4645dfdc28c31a28
+vendor/lib/lib-imsdpl.so|0b0f24b10ce3766d4832346d9fe231218c54835f
+vendor/lib/lib-imsvtcore.so|cde97d279d055bb570d77830586cf2908dda5926
+vendor/lib/lib-rtpcommon.so|29957cdfeb993623eee090144b0769fd94b378c4
+vendor/lib/lib-rtpcore.so|0b43cac285d52b2b5dab33155576c8d3a4d86dc8
+vendor/lib/lib-rtpsl.so|739a3e8a42ba424c9f8789943e48a62bdf65b366
+vendor/lib/librcc.so|8c8255538ea85869953ddd719a97c9c163e80853
+vendor/lib/vendor.qti.imsrtpservice@3.0-service-Impl.so|e0149a151998f25d685e10a7efca2ae8c6712c27
+vendor/lib/vendor.qti.imsrtpservice@3.0.so|1333f4cb493bfcf6f9c7f5d6b15c3af38b681373
+vendor/lib64/lib-imsdpl.so|b66d4f789c750541f43078f2167870cf904bd67b
+vendor/lib64/lib-imsvtcore.so|279ab63ed4f6cc5473bfb7cddf99b35d9353171e
 vendor/lib64/lib-rtpcommon.so|eb6f566fd1c3565bee0f7cdb9211b400a1d57f11
-vendor/lib64/lib-rtpcore.so|eec237710589d62808eff834d248a56cb08d4341
+vendor/lib64/lib-rtpcore.so|2dc50b05782d9a0e6bcf04826cc05880c18ff866
 vendor/lib64/lib-rtpsl.so|75f875df9ac0935935883e02f8c5f9c73ea01538
-vendor/lib64/librcc.so|8fdafcb5ead09e585135ed7a30891434553e1554
-vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|939193852a791072058e87949f10dc62456f7d06
+vendor/lib64/librcc.so|19bf36c92a0afa4243e7a675be75d18b9b7ddbf8
+vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|ac8045bd314d9cb87120296f1d6fddeb98de19fd
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161cc1bcf
 
 # Radio [IWLAN] - LA.UM.9.6.2.r1-03600-89xx.0
