@@ -652,4 +652,22 @@
             <instance>imsrtpservice</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.cvp</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ICvp</name>
+            <instance>cvphalservice</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.improvetouch.touchcompanion</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchCompanion</name>
+            <instance>TouchCompanionService</instance>
+        </interface>
+    </hal>
 </manifest>
