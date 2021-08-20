@@ -109,6 +109,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
+    libantradio \
     com.dsi.ant.antradio_library
 
 PRODUCT_COPY_FILES += \
