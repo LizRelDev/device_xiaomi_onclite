@@ -2249,9 +2249,9 @@ vendor/lib64/libkeymasterprovision.so|6bf0256c9c1a05ff8350ee2a50ad7c523ae2324b
 vendor/lib64/libkeymasterutils.so|2791994395cd10eb1092b8bd8fea15987e17421d
 vendor/lib64/libqtikeymaster4.so|f21ad45a4fb678f66006e2fa8902a3145e9c457b
 
-# Keystore - daisy (QKQ1.191002.002)
-vendor/lib/hw/keystore.msm8953.so|c56d3768e04fc180d844dbca94be8c27770e37d5
-vendor/lib64/hw/keystore.msm8953.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
+# Keystore - LA.UM.8.6.2.r1-08400-89xx.0
+vendor/lib/hw/keystore.msm8953.so|67c300556d86c5013628f7a04a30f8893fc241d9
+vendor/lib64/hw/keystore.msm8953.so|b2cab45df036a248a7004281bae9a6005d7e74c6
 
 # Latency - deadpool (RKQ1.200928.002)
 system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|68068cdbd044dca2872284ebcd2909eb74c3a804
