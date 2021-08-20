@@ -2135,11 +2135,11 @@ vendor/lib64/vendor.qti.gnss@2.1.so|7f69b6098f779f6ed396bbf366b496b0b228c743
 vendor/lib64/vendor.qti.gnss@3.0-service.so|6b3c387f31f4cb91c8907362af4daa3f0cad7911
 vendor/lib64/vendor.qti.gnss@3.0.so|c5ed668d324e7c898ca026fc12dad8829cd8a944
 
-# GPS [CA Cert] - LA.UM.9.6.2.r1-03600-89xx.0
+# GPS [CA Cert Location] - deadpool (RKQ1.200928.002)
 -vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
 vendor/etc/cacert_location.pem|6a05f324e7d9ff584811e62aabeb6d89a5239bbe
 vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
-vendor/lib64/libjnihelper.so|ffd69a3dbbe14e6fc30a979e904dda585ccc9372
+vendor/lib64/libjnihelper.so|fb8690fbb5b8fbb97ded1bd8d4f87285ec74cf41
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|398e5510db4d739de008b7230aa6e688d6c51a8a
 
 # Gatekeeper - daisy (QKQ1.191002.002)
