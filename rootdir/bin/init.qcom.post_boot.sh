@@ -453,11 +453,11 @@ function sdm660_sched_interactive_dcvs() {
             echo 762 > $cpubw/min_freq
             echo "1525 3143 5859 7759 9887 10327 11863 13763" > $cpubw/bw_hwmon/mbps_zones
             echo 4 > $cpubw/bw_hwmon/sample_ms
-            echo 34 > $cpubw/bw_hwmon/io_percent
+            echo 85 > $cpubw/bw_hwmon/io_percent
             echo 100 > $cpubw/bw_hwmon/decay_rate
             echo 50 > $cpubw/bw_hwmon/bw_step
             echo 20 > $cpubw/bw_hwmon/hist_memory
-            echo 10 > $cpubw/bw_hwmon/hyst_length
+            echo 0 > $cpubw/bw_hwmon/hyst_length
             echo 80 > $cpubw/bw_hwmon/down_thres
             echo 0 > $cpubw/bw_hwmon/low_power_ceil_mbps
             echo 34 > $cpubw/bw_hwmon/low_power_io_percent
@@ -1338,7 +1338,6 @@ case "$target" in
         # HMP scheduler settings for 8916, 8936, 8939, 8929
         echo 3 > /proc/sys/kernel/sched_window_stats_policy
         echo 3 > /proc/sys/kernel/sched_ravg_hist_size
-        echo 9 > /proc/sys/kernel/sched_upmigrate_min_nice
 
         # Apply governor settings for 8916
         case "$soc_id" in
@@ -2824,6 +2823,9 @@ case "$target" in
                 ;;
             esac
 
+	    # Disable cdsprpcd daemon for sdm630
+	    setprop vendor.fastrpc.disable.cdsprpcd.daemon 1
+
             # Setting b.L scheduler parameters
             echo 85 > /proc/sys/kernel/sched_upmigrate
             echo 85 > /proc/sys/kernel/sched_downmigrate
@@ -3927,7 +3929,7 @@ case "$target" in
 
         # Scuba perf/power tunings
         case "$soc_id" in
-             "441" )
+             "441" | "473" | "474" )
 
             # Quad-core device. disable core_ctl
             echo 0 > /sys/devices/system/cpu/cpu0/core_ctl/enable
