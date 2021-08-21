@@ -210,6 +210,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.charger.enable_suspend=true \
     ro.charger.disable_init_blank=true
 
+PRODUCT_PACKAGES += \
+    init.onclite_charge.rc
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sysconfig/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml

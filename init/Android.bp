@@ -1,5 +1,6 @@
 //
 // Copyright (C) 2020 The Android Open Source Project
+// Copyright (C) 2021 The Nusantara Project ROM
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -26,4 +27,11 @@ cc_library_static {
     shared_libs: [
         "libbase",
     ]
+}
+
+prebuilt_etc {
+    name: "init.onclite_charge.rc",
+    src: "init.onclite_charge.rc",
+    sub_dir: "init",
+    vendor: true,
 }
