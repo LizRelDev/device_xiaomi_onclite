@@ -2331,8 +2331,8 @@ vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 # Performance [IOP] - LA.UM.8.6.2.r1-08400-89xx.0
 product/lib/vendor.qti.hardware.iop@2.0.so|07472bae092e8a2073d532534d82c8115146e24e
 product/lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|e3257b0a7fb944c471eb98623427630b6423fd24
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+#vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|e3257b0a7fb944c471eb98623427630b6423fd24
+#vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|6e42e6b3555e47c730a69fd5522099c5729b272a
 vendor/lib/libqti-iopd-client.so|30c7d57636921ddcec6df17fcb378a4a04eefe42
 vendor/lib/vendor.qti.hardware.iop@2.0.so|4e2930e43b93b97dcf30d19e2c7bca460aa30d7f
