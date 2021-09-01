@@ -28,3 +28,7 @@ Display | 720 x 1520 pixels, 19:9 ratio, 6.26 inches (~269 ppi density)
 Rear camera | 12 MP, f/2.2, 1/2.9", 1.25µm, PDAF + 2 MP, f/2.2, depth sensor
 Front camera (Redmi 7) | 8 MP, f/2.0, 1/4", 1.12µm
 Front camera (Redmi Y3) | 32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm
+
+## Device picture
+
+![Xiaomi Redmi 7 and Xiaomi Redmi Y3](https://bit.ly/3mWVlkn "Xiaomi Redmi 7 and Xiaomi Redmi Y3")
