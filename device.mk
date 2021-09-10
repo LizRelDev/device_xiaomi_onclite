@@ -455,6 +455,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)/configs/resources/qcom
 
 # RRO's
 PRODUCT_PACKAGES += \
