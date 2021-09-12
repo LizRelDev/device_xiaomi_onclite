@@ -110,9 +110,6 @@ ro.fm.transmitter=false
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 
-#selects CoreSight configuration to enable
-persist.debug.coresight.config=stm-events
-
 #selects Console configuration to enable
 persist.console.silent.config=1
 
