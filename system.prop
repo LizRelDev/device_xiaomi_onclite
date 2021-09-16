@@ -196,3 +196,6 @@ persist.vendor.radio.hw_mbn_update=0
 
 #enable bg dexopt
 persist.bg.dexopt.enable=true
+
+#property to enable usb otg
+persist.sys.oem.otg_support=true
