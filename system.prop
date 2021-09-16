@@ -107,8 +107,6 @@ persist.fuse_sdcard=true
 #System property for FM transmitter
 ro.fm.transmitter=false
 
-#property to enable user to access Google WFD settings
-persist.debug.wfd.enable=0
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 
