@@ -475,8 +475,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.service.adb.enable=1 \
-    persist.service.debuggable=1 \
-    persist.sys.usb.config=mtp,adb
+    persist.service.debuggable=1
 
 # Vibrator
 PRODUCT_PACKAGES += \
