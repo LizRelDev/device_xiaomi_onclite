@@ -2365,17 +2365,15 @@ vendor/lib64/libqti-perfd.so|3446c05a2ad52222b339f47d4c6d6b85198e2b2d
 vendor/lib64/libqti-util.so|834cc98315887e57a5f229f9ee1a0d20d0d8f4c3
 vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
 
-# Performance [IOP] - LA.UM.8.6.2.r1-08400-89xx.0
-product/lib/vendor.qti.hardware.iop@2.0.so|07472bae092e8a2073d532534d82c8115146e24e
-product/lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
-#vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|e3257b0a7fb944c471eb98623427630b6423fd24
-#vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|6e42e6b3555e47c730a69fd5522099c5729b272a
-vendor/lib/libqti-iopd-client.so|30c7d57636921ddcec6df17fcb378a4a04eefe42
-vendor/lib/vendor.qti.hardware.iop@2.0.so|4e2930e43b93b97dcf30d19e2c7bca460aa30d7f
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|1f087eb93b9ce0f0ee7fdaf6351f5f71f7db1150
-vendor/lib64/libqti-iopd-client.so|fc9878267908f9843882891f902c4d37fee760dd
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|3e3fefb8ed943e09fc09c8a6dd6cc7991cb8f2e5
+# Performance [IOP] - LA.UM.9.6.2.r1-03600-89xx.0
+system_ext/lib/vendor.qti.hardware.iop@2.0.so|aad67526568b33128f087c7f5f7a4e81da26b0bc
+system_ext/lib64/vendor.qti.hardware.iop@2.0.so|3da38cf59259d9327c1d05e7f9eed72628998303
+vendor/lib/libqti-iopd-client.so|7ce1fb3256642e8ce2303e66f8224fe52c64c62c
+vendor/lib/vendor.qti.hardware.iop@1.0.so|51233dada4b92e7c6a9fc24e7d00b073b53b1fb0
+vendor/lib/vendor.qti.hardware.iop@2.0.so|a4fe30b74cbba04f105b60500b750719c9187ee8
+vendor/lib64/libqti-iopd-client.so|512e12a6a86eb2dc5ad73a590c996d0e67e2ec1a
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|ab7e9d16481a52a919cd7484eed480913ce29e66
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|a99da96aa7abf8b9a4cb950113d7fe4ccbe4ff6c
 
 # Peripheral manager - LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/pm-proxy|4d9a24cf5d90f2f320fb838a190fcef9e070ef57

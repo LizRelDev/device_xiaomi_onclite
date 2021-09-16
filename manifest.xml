@@ -461,7 +461,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- <hal format="hidl">
+    <hal format="hidl">
         <name>vendor.qti.hardware.iop</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -470,7 +470,7 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::IIop/default</fqname>
-    </hal> -->
+    </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.qdutils_disp</name>
         <transport>hwbinder</transport>
