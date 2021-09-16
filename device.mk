@@ -415,7 +415,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh
 
 PRODUCT_PACKAGES += \
-    init.performance_level.rc
+    init.performance_level.rc \
+    init.blur_mode.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
