@@ -2688,15 +2688,19 @@ vendor/lib/sensors.ssc.so|f8483b2fcc2c11e838631be3322f990be60541cf
 vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
 vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
 
-# Soter - daisy (QKQ1.191002.002)
-product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
-product/lib64/vendor.qti.hardware.soter@1.0.so|0cc653294e81fd394ccd9dcb368de6bfa0914619
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|08186e8d917f30292ef6105eaa080776c6501d03
-vendor/bin/SoterProvisioningTool|3d8df6f2db064839efdd49ce54d46f3d534b20f8
-vendor/bin/vendor.qti.hardware.soter@1.0-provision|d0fcbb0774007e9cc74409e12169da2a58739dd1
+# Soter
+-product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
+-vendor/app/SoterService/SoterService.apk|a906b956cff77c2a1bcb26d8a74ecd386b50eeb2
+product/lib/vendor.qti.hardware.soter@1.0.so|45a8cbdcd816240934f523157c56e21e315e26d6
+product/lib64/vendor.qti.hardware.soter@1.0.so|eb92f6de6b7fe38c4c977e2effc33f53d825ca90
+vendor/bin/SoterProvisioningTool|7d96b4b30201294e645d684c17c6472bf3b78392
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|40eba287faa15ed67cc389b56f0595699d202666
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|2cfc85718c02e871e44a97d98399de260c7e8ba0
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|1c00fa1fa795fcceba9c11a449f9bcc1d2e53a11
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|0cc653294e81fd394ccd9dcb368de6bfa0914619
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so|0e4263c35d9e4964f5cb069980a401b534010d0e
+vendor/lib/vendor.qti.hardware.soter@1.0.so|cc5fafc92038b92c9e6045c68a89c64e935afc0b
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|011245d9368c2ab824d9cf09b802bf7739c39bb8
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|5009b4dc1e8469186530f44bd5f184a7a8f51266
 
 # Thermal
 -vendor/lib/libthermalclient.so|a18540af4380aab3d6e6e880241b0c74c7967c0b
