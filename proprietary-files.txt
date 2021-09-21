@@ -2221,6 +2221,8 @@ lib/libOmxMux.so|6f1a1f5fc8f9a8683e6fb719b6fe51a68c6b0e84
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
 lib/libmmparser_lite.so|c7a218e32b16394035b2afcacb06174d0c46f295
 lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
+vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
+vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 
 # Peripheral manager
 vendor/bin/pm-proxy|4d9a24cf5d90f2f320fb838a190fcef9e070ef57
