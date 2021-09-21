@@ -2297,7 +2297,6 @@ vendor/lib/egl/libQTapGLES.so|485477504094831f29fc9aa895efb075d26d3a1b
 vendor/lib/egl/libq3dtools_adreno.so|dcdc5c6af04432c550c71f6df204145e68a3078c
 vendor/lib/hw/audio.bluetooth_qti.default.so|f0f31aee0b22334bc0752486b6c039f2f93f120c
 vendor/lib/hw/consumerir.default.so|53a2466eeff7ed2f5bf484e25f761aac9dc2d6de
-vendor/lib/hw/sound_trigger.primary.msm8953.so|991e0be9c5743d5d3394eb2f4b82740c3c0616f7
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8a7105c0559b6a255642a336779b105c6dc76623
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|5fa61b2a1c8ebc2b1381662cdf13c328ad4d24b4
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|95a8de0ea39853d1378a7cf3c8471e7d284257ad
@@ -2429,7 +2428,6 @@ vendor/lib64/egl/libq3dtools_adreno.so|14f0c59216408199db6ce349a57ff82d2036d8e2
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a244ce3acd958c31865e048e0ead9bc54d1c0465
 vendor/lib64/hw/audio.bluetooth_qti.default.so|41fc011c61a572abc8f83d3a23dace98a7d04080
 vendor/lib64/hw/consumerir.default.so|3f7e08451e1690b112a03c4a8b467f354bbe3b3d
-vendor/lib64/hw/sound_trigger.primary.msm8953.so|4ff47ab34dfd457a57a5bede70769fbbc63c240e
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5728506d9ca992ceef93cec7473034a7eeee98f4
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|76134fb75ff99948e0d00728db058aed8f519c3f
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|51b017a7d35d71522319d2a3d5922b53e0f18230
