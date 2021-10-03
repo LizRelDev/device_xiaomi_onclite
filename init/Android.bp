@@ -28,31 +28,3 @@ cc_library_static {
         "libbase",
     ]
 }
-
-prebuilt_etc {
-    name: "init.onclite_charge.rc",
-    src: "init.onclite_charge.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.performance_level.rc",
-    src: "init.performance_level.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.onclite.rc",
-    src: "init.onclite.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.blur_mode.rc",
-    src: "init.blur_mode.rc",
-    sub_dir: "init",
-    vendor: true,
-}

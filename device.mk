@@ -205,9 +205,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.charger.enable_suspend=true \
     ro.charger.disable_init_blank=true
 
-PRODUCT_PACKAGES += \
-    init.onclite_charge.rc
-
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sysconfig/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
@@ -398,7 +395,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.msm.usb.configfs.rc \
-    init.onclite.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
@@ -412,10 +408,6 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sensors.sh
-
-PRODUCT_PACKAGES += \
-    init.performance_level.rc \
-    init.blur_mode.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
