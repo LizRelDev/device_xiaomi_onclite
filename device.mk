@@ -512,10 +512,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     wifi.interface=wlan0
 
-# Wi-Fi Display
-PRODUCT_PACKAGES += \
-    libnl
-
 # Zygote
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true

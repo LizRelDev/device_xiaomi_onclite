@@ -2227,16 +2227,6 @@ vendor/lib64/libqti-iopd-client.so|fc9878267908f9843882891f902c4d37fee760dd
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|3e3fefb8ed943e09fc09c8a6dd6cc7991cb8f2e5
 
 # Media
-lib/extractors/libmmparserextractor.so|4178c228bdb7120cfdd6fd8ea4325cad9942f702
-lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
-lib/libOmxMux.so|6f1a1f5fc8f9a8683e6fb719b6fe51a68c6b0e84
-lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
-lib/libmmparser_lite.so|c7a218e32b16394035b2afcacb06174d0c46f295
-lib/libmmrtpdecoder.so|c4d8d4ec093a24e2d158ffe1edb408aeb83e5edb
-lib/libmmrtpencoder.so|c1d969d3600a9b9a7505e4d1f18ab3ac0f111406
-lib64/libFileMux.so|8d07dde58a8b629ccce4dd9c778e76a6513ca555
-lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
-lib64/libmmparser_lite.so|a4c043b3c3b29c58591e556e55b2175d90093230
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
 vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 
