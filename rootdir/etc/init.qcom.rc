@@ -272,6 +272,14 @@ on boot
     setprop ro.sf.blurs_are_expensive 1
     setprop ro.surface_flinger.supports_background_blur 1
 
+    # Smart Charging
+    #Huaqin add for control charge by zhangjingzhi at 20180129 start 
+    chown system system /sys/class/power_supply/battery/charging_enabled 
+    chmod 0666 /sys/class/power_supply/battery/charging_enabled 
+    chown system system /sys/class/power_supply/battery/input_suspend 
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+    #Huaqin add for control charge by zhangjingzhi at 20180129 end
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
@@ -481,14 +489,6 @@ on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
-
-    # Smart Charging
-    #Huaqin add for control charge by zhangjingzhi at 20180129 start 
-    chown system system /sys/class/power_supply/battery/charging_enabled 
-    chmod 0666 /sys/class/power_supply/battery/charging_enabled 
-    chown system system /sys/class/power_supply/battery/input_suspend 
-    chmod 0666 /sys/class/power_supply/battery/input_suspend
-    #Huaqin add for control charge by zhangjingzhi at 20180129 end
 
     #Starting perf properly
     setprop vendor.post_boot.parsed 1
