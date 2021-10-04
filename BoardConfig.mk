@@ -179,7 +179,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 TARGET_PER_MGR_ENABLED := true
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/configs/resources/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
