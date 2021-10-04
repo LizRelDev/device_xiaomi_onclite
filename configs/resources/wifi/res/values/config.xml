@@ -2,6 +2,7 @@
 <!--
 /*
  * Copyright (C) 2020 The Android Open Source Project
+ * Copyright (C) 2021 The Nusantara Project ROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,4 +41,27 @@
 
     <!-- Indicates that AP mode MAC randomization is supported on this device -->
     <bool name="config_wifi_ap_mac_randomization_supported">false</bool>
+
+    <!-- Wifi driver supports batched scan -->
+    <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
+
+    <!-- Boolean indicating whether single radio chain scan results are to be used for network selection -->
+    <bool translatable="false" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
+
+    <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
+    <bool translatable="false" name="config_wifi_softap_acs_supported">false</bool>
+
+    <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
+    <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">false</bool>
+
+    <!-- Integer parameters of the wifi to cellular handover feature
+         wifi should not stick to bad networks -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-80</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_low_rssi_threshold_24GHz">-73</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_low_rssi_threshold_5GHz">-70</integer>
+
+    <!-- Configure wifi tcp buffersizes in the form:
+         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
+    <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,5505024,262144,524288,4194304</string>
 </resources>
