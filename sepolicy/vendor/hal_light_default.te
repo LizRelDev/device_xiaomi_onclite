@@ -1,4 +1,0 @@
-allow hal_light_default sysfs:file { open getattr write };
-allow hal_light_default sysfs_battery_supply:dir search;
-
-dontaudit hal_light_default vendor_file:file execute_no_trans;
