@@ -12,5 +12,12 @@
    "branch"      : "11",
    "clone-depth" : "1",
    "target_path" : "vendor/xiaomi/onclite"
+ },
+ {
+   "remote"      : "github",
+   "repository"  : "hadadarjt/proton-clang",
+   "branch"      : "20210123",
+   "clone-depth" : "1",
+   "target_path" : "prebuilts/clang/host/linux-x86/clang-proton-12"
  }
 ]
