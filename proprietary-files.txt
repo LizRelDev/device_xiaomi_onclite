@@ -2637,3 +2637,11 @@ vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
 vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
 vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
+
+# UBWC (Universal Bandwidth Compression)
+vendor/lib/libUBWC.so|30dd8962cb8ab5bf5caeff2f74e3639691c0e6fe
+vendor/lib/libfastcrc.so|76f2babe2db1092e2d4513d80d457e69c91ec269
+vendor/lib/libstreamparser.so|5f6d72017b1aa1ae457f6de54b8c101568e22cb8
+vendor/lib64/libUBWC.so|5b9ac103bde9ffc8384f34384d8552e5c44d5725
+vendor/lib64/libfastcrc.so|e49babf1637978654fcb5fe5949f65d0a60b11c2
+vendor/lib64/libstreamparser.so|8ccb6cfc28decef9b13b392713fd9e76ceb97764
