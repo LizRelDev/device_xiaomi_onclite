@@ -672,12 +672,6 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
     onrestart restart audioserver
 
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user root
-    group system
-    oneshot
-
 on property:sys.fp.vendor=goodix
     setprop ro.boot.fpsensor goodix
     setprop persist.sys.fp.vendor goodix
