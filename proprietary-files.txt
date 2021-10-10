@@ -2268,14 +2268,6 @@ etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|25391818f65a4dfe3fdf0603109eacc4eedc4c13
-product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|652aa6b2b0a1f5605429e2ded12a760ce39bb26d
-product/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|e80c57426746b30be01fba239ac7c00881c41da0
-product/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|9407283f2bdb87b86ac700254c1033007e48bea2
-product/lib/vendor.qti.hardware.scve.panorama@1.0.so|680a69aed4b3ff3edd52aa0637b23838a3ad1c33
-product/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|a003a4e3290e7777d52f5695cc6491a376ca71da
-product/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|8613a107e2e318f67d27888cedea2e583263088f
-product/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008c0bcc9f09172eb70dddc458f4790b
-product/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
 vendor/bin/audioflacapp|a8ae278497715aa53f6fb86d5f5af225da0fc5b0
 vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
@@ -2572,6 +2564,16 @@ vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 vendor/lib64/mediadrm/libwvdrmengine.so|449c86e23afe6f3f0055e3b2f9af4ecc23afabca
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|7bc3032b846e896c67dac44f413db78d2acbf99b
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
+
+# SCVE (Snapdragon Computer Vision Engine)
+system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|652aa6b2b0a1f5605429e2ded12a760ce39bb26d
+system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|e80c57426746b30be01fba239ac7c00881c41da0
+system_ext/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|9407283f2bdb87b86ac700254c1033007e48bea2
+system_ext/lib/vendor.qti.hardware.scve.panorama@1.0.so|680a69aed4b3ff3edd52aa0637b23838a3ad1c33
+system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|a003a4e3290e7777d52f5695cc6491a376ca71da
+system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|8613a107e2e318f67d27888cedea2e583263088f
+system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008c0bcc9f09172eb70dddc458f4790b
+system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 
 # Sensors
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|81934fd454fd30282ef1a8a90b7374317f6c42de
