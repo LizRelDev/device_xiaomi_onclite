@@ -156,6 +156,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth@1.2.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
@@ -209,6 +212,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sysconfig/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
+# Crypto
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -225,9 +235,11 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData \
     libqdMetaData.system \
+    libqdMetaData.vendor \
     libgenlock \
     libtinyxml \
-    vendor.display.config@1.9
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9.vendor
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.min.fling_velocity=160 \
@@ -245,8 +257,13 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0.vendor \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm@1.4.vendor \
     android.hardware.drm@1.3-service.clearkey
 
 # FM Radio
@@ -261,6 +278,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcurl \
     libwifi-hal-ctrl
+
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@1.2.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@3.0.vendor
 
 # Health HAL
 PRODUCT_PACKAGES += \
@@ -372,9 +397,12 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.0.vendor \
     android.hardware.power@1.0-service \
     android.hardware.power@1.0-impl \
     power.qcom \
+    android.hardware.power@1.1.vendor \
+    android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.0.vendor \
     vendor.qti.hardware.perf@2.1.vendor \
     vendor.qti.hardware.perf@2.2.vendor
@@ -440,6 +468,23 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
+    android.hardware.neuralnetworks@1.2.vendor \
+    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.neuralnetworks@1.4.vendor
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
@@ -452,6 +497,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
     android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
 
 PRODUCT_COPY_FILES += \
