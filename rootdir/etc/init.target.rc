@@ -135,12 +135,6 @@ on property:init.svc.zygote=running
 on property:init.svc.zygote=restarting
     stop ppd
 
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user root
-    group system
-    oneshot
-
 service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
     class main
     user root
@@ -178,7 +172,7 @@ on boot
 # access permission for wlan
     chown system system /mnt/vendor/persist/WCNSS_qcom_wlan_nv.bin
 
-#USB controller configuration
+# USB controller configuration
     write /sys/module/g_android/parameters/mtp_tx_req_len 131072
     write /sys/module/g_android/parameters/mtp_rx_req_len 131072
     write /sys/class/android_usb/android0/f_rndis_qc/rndis_transports BAM2BAM_IPA
@@ -186,12 +180,6 @@ on boot
     setprop vendor.usb.rmnet.func.name "rmnet_bam"
     setprop vendor.usb.rmnet.inst.name "rmnet"
     setprop vendor.usb.dpl.inst.name "dpl"
-
-# Smart Charging permissions
-    chown system system /sys/class/power_supply/battery/charging_enabled 
-    chmod 0666 /sys/class/power_supply/battery/charging_enabled
-    chown system system /sys/class/power_supply/battery/input_suspend
-    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 service ppd /vendor/bin/mm-pp-dpps
     class late_start
