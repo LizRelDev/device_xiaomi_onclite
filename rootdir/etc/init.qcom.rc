@@ -684,35 +684,3 @@ on property:sys.fp.vendor=goodix
 
 on property:sys.fp.vendor=FPC
     setprop ro.boot.fpsensor fpc
-
-on property:sys.performance.level=-1
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 0
-
-on property:sys.performance.level=0
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 0
-
-on property:sys.performance.level=1
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 14
-
-on property:sys.performance.level=2
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 14
-
-on property:sys.performance.level=3
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 10
-
-on property:sys.performance.level=4
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 10
-
-on property:sys.performance.level=5
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 9
-
-on property:sys.performance.level=6
-    chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 9
