@@ -458,6 +458,7 @@ QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)/configs/resources/qcom
 
 # RRO's
 PRODUCT_PACKAGES += \
+    CustomKeyguardOverlay \
     WifiOverlay \
     TetheringConfigOverlay
 
