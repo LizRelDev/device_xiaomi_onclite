@@ -1,8 +1,8 @@
 [
  {
    "remote"      : "github",
-   "repository"  : "NusantaraROM-Devices/kernel_xiaomi_onclite",
-   "branch"      : "11",
+   "repository"  : "risti699/Kernul-Onclite",
+   "branch"      : "JFla-Karamel",
    "clone-depth" : "1",
    "target_path" : "kernel/xiaomi/onclite"
  },
@@ -15,9 +15,9 @@
  },
  {
    "remote"      : "github",
-   "repository"  : "hadadarjt/proton-clang",
-   "branch"      : "20210123",
+   "repository"  : "risti699/GengKapak-clang",
+   "branch"      : "13",
    "clone-depth" : "1",
-   "target_path" : "prebuilts/clang/host/linux-x86/clang-proton-12"
+   "target_path" : "prebuilts/clang/host/linux-x86/clang-gengkapak"
  }
 ]
