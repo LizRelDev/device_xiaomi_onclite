@@ -16,6 +16,14 @@
 
 $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    kernel/xiaomi/onclite \
+    hardware/qcom-caf/msm8996/audio \
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/media
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
