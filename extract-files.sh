@@ -64,6 +64,9 @@ function blob_fixup() {
     vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc)
         sed -i -e '$a\\    capabilities NET_BIND_SERVICE' "${2}"
         ;;
+    vendor/lib/libmmcamera_ppeiscore.so)
+        "${PATCHELF}" --add-needed libui_shim.so "${2}"
+        ;;
     esac
 }
 
