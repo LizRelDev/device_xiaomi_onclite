@@ -61,6 +61,9 @@ function blob_fixup() {
     product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
         sed -i 's/version="2.0"/version="1.0"/g' "${2}"
         ;;
+    vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc)
+        sed -i -e '$a\\    capabilities NET_BIND_SERVICE' "${2}"
+        ;;
     esac
 }
 
