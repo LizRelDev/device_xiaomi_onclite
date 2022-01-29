@@ -67,6 +67,9 @@ function blob_fixup() {
     vendor/lib/libmmcamera_ppeiscore.so)
         "${PATCHELF}" --add-needed libui_shim.so "${2}"
         ;;
+    vendor/lib/libmmcamera2_stats_modules.so)
+        "${PATCHELF}" --add-needed libcamshim.so "${2}"
+        ;;
     esac
 }
 
