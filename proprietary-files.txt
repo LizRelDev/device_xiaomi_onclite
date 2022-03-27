@@ -2030,6 +2030,27 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e67f78bdb42f2b246ecc6a37cecd
 
+# DRM (Digital Rights Management)
+vendor/bin/qseecomd|12fde638ad4528c06fe336342862fd0ffc033dd0
+vendor/lib/libQSEEComAPI.so|961b8c99bf5d2a53b607cebf399fbdafb48c9bc6
+vendor/lib64/libGPreqcancel.so|d851bcc3e1b982d8403dc86921c5dd9274f71dc5
+vendor/lib64/libGPreqcancel_svc.so|760427f2139aec09a74b50a80153e461fbc6b272
+vendor/lib64/libQSEEComAPI.so|17cf281138050f87e29b2b71e63d131249b10f6f
+vendor/lib64/libSecureUILib.so|e9dd8017f40691925c59a074705be7cf11130780
+vendor/lib64/libStDrvInt.so|7c921ee6db896233f9ea03f1fb3a9b7d9434e7dc
+vendor/lib64/libcpion.so|602ffa6e92be0f2a19c8de782e1601135c7dd2a8
+vendor/lib64/libdrmfs.so|1654e650448a464b9de765c9ce80ba5a29e8b9c1
+vendor/lib64/libdrmtime.so|b3f024dae4aaa62c4fc33965847d1627387c6b56
+vendor/lib64/libhdcpsrm.so|8822f0408bdcc11dfc661321bfd3c253f0306e0c
+vendor/lib64/liboemcrypto.so|cff69ca64f9015e17cdcc2c45c992d262d864013
+vendor/lib64/libops.so|b2223e64db9d8f84262da7a8621013d3c63b6c98
+vendor/lib64/libqisl.so|e9c402aed643ee094daaf495f1a3a1f29542d602
+vendor/lib64/librpmb.so|a5ee7dfbbae868a253d7413c866800ea1146d7c8
+vendor/lib64/libsecureui.so|eef8db680df8e9b47d4725433cd0d3886cc8aa25
+vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
+vendor/lib64/libspl.so|0fa8c0711f72fc8a914dce044cf8dddd79ee62e1
+vendor/lib64/libssd.so|6dcbfc531e69a3c7eeaf21e85ac0202b8fa82d55
+
 # ESE-Powermanager
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
@@ -2470,7 +2491,6 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|14751f15eba2a00f20a39d
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|f2ce9a6ddb3e8b401903eb5da92885dff8fc7222
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4d4f6f54c856ccdab0fbdda7a5064b24cf72fcd9
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
-vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
@@ -2482,7 +2502,6 @@ vendor/lib/hw/keystore.msm8953.so|67c300556d86c5013628f7a04a30f8893fc241d9
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|f3f5c4216b9a505affbe955a85a56bd39ca1ab74
 vendor/lib/libGPQTEEC_vendor.so|ff57cecc96e32f96564a3b1bb113546eeda045d2
 vendor/lib/libGPTEE_vendor.so|5e817e8ea584fbc02b0098e37f76ccb9d0d2d066
-vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
 vendor/lib/libQTEEConnector_vendor.so|dc6380f349dfae6258478b3bf9d329c182e12350
 vendor/lib/libkeymasterdeviceutils.so|ae15183797ebc54a3775bdcfdfde42172dfa2cb6
 vendor/lib/libkeymasterprovision.so|3a496c320b7f6f5c724a771a897e7e35ce38c74d
@@ -2497,23 +2516,11 @@ vendor/lib64/hw/keystore.msm8953.so|b2cab45df036a248a7004281bae9a6005d7e74c6
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|bc058b17763ed26f882d1042d2012f05022fa8f4
 vendor/lib64/libGPQTEEC_vendor.so|f378e4434df01922c9829406121d77bb3c6afd2c
 vendor/lib64/libGPTEE_vendor.so|0bc88c8e6bbe3b38e5c2229f5dfedf38c0e320d8
-vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
-vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
-vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
 vendor/lib64/libQTEEConnector_vendor.so|68128f4409069546f0dcfabb379e3ec031ce3a36
-vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a
-vendor/lib64/libStDrvInt.so|2947474aad631d5345283e57a38003b6373b2d11
-vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
-vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
 vendor/lib64/libkeymasterdeviceutils.so|ea44915adfee57f1bd813b2184987565d396ab82
 vendor/lib64/libkeymasterprovision.so|6bf0256c9c1a05ff8350ee2a50ad7c523ae2324b
 vendor/lib64/libkeymasterutils.so|2791994395cd10eb1092b8bd8fea15987e17421d
-vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
 vendor/lib64/libqtikeymaster4.so|f21ad45a4fb678f66006e2fa8902a3145e9c457b
-vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
-vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
-vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
-vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 vendor/lib64/mediadrm/libwvdrmengine.so|449c86e23afe6f3f0055e3b2f9af4ecc23afabca
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|7bc3032b846e896c67dac44f413db78d2acbf99b
