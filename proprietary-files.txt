@@ -1,4 +1,4 @@
-# Alarm
+# Alarm - from LA.UM.9.6.3.r1
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|586b142f9bc4bf3098b4962682c4de1c13810f9b
 vendor/bin/power_off_alarm|b8c7ddc1bed336753c3746925fd0f4a9925aa36c
@@ -6,11 +6,11 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|4129558506dc078c03679ba362acda4755457742
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|3c182fd3343942c431e1d27d87f8fe114644ca36
 
-# aptX HD Audio
+# aptX HD Audio - from redfin
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
-# Camera
+# Camera - from MIUI
 lib64/libseemore.so|3ab4199cd66f857ba5cd0ada71d6d959509c3f7f
 vendor/bin/mm-qcamera-app|d903a5697a9c34a8fc701c811d6e030d031806ac
 vendor/etc/camera/GpuKernelRepo.pb|fd423dc7ea91ab53ded7d8d6c0994f6ae9f47a3d
@@ -1750,7 +1750,7 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|c89fa1c37d2ce660db0b361b4b88735
 vendor/lib64/libseemore.so|3ab4199cd66f857ba5cd0ada71d6d959509c3f7f
 vendor/lib64/libvideoutils.so|4c5b876a24f0a202e2a0b0895b3646bc3db8dd2c
 
-# Connectivity
+# Connectivity - from LA.UM.9.6.3.r1
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
 -system_ext/app/embms/embms.apk|010db3d97f4faad191f1a53415d7cf0a94dabcd1
 -system_ext/app/imssettings/imssettings.apk|8b47c43d56228dcce93cc8c07c6ceb08cb3d2fe5
@@ -2030,7 +2030,7 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e67f78bdb42f2b246ecc6a37cecd
 
-# ESE-Powermanager
+# ESE-Powermanager - from LA.UM.9.6.2.r1
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
 vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|fbd4ced5df7529fac123bc3cc5426cb8c2bd2842
@@ -2040,7 +2040,7 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|17f648402c874e4f981caadd9
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|a114629809e67015a14e5e367c6fb374adaafbc2
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|f111cf42439d28fe88d9ebf6b6a1c44b729a3194
 
-# Firmware
+# Firmware - from MIUI
 etc/firmware/ice40.bin|a29bdcdbfda7f7dae24a3c8921abe2bcda6ae38e
 vendor/firmware/a225_pfp.fw|7ba4003796285d36c125fabe453b45d5e21850cc
 vendor/firmware/a225_pm4.fw|87d6f27ca08b521cc3361f63f0631a1fef2403ac
@@ -2085,7 +2085,7 @@ vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 vendor/firmware/leia_pfp_470.fw|46a8ce821d218359ff7e846db5dcc15b31bdd5ca
 vendor/firmware/leia_pm4_470.fw|99364b0afd94e496ccc833ca0424dd6853b971d5
 
-# FM Radio
+# FM Radio - from LA.UM.9.6.2.r1
 system_ext/lib/fm_helium.so|e1393e3bc7b9778551db1ed5be99d0dadc6d2b0b
 system_ext/lib/libfm-hci.so|fe72e2f500a57e2a46cd4ed66649509b5c15e27a
 system_ext/lib/vendor.qti.hardware.fm@1.0.so|847a077921ba3c64aeb5dd47ccad1697a1ad2fbb
@@ -2097,7 +2097,7 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|6f191e9c162056a6dd3b743ed14a3fd9bf3acdb
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|7eb9a18ddc6b8199aa81770add4998ca0886c2a0
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|f7494923e84b136a44f02699082a7e0a380f94e9
 
-# Fingerprint
+# Fingerprint - from MIUI
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|de21aab25cc4863075354dc985fb39bec02db4cf
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|7059f3cd5deaedebd89dafa9ba8be1fbd8e89103
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|4ec1563bf0806d58f13337eeff18697d04d7f064
@@ -2113,7 +2113,7 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|218eafa5ad8f92
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|8b2b19a948ff2493d9c01e9401f5582fd2429397
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|69ae7b2e6ce22e23f70caa20c340e99510409b57
 
-# GPS (Global Positioning System)
+# GPS (Global Positioning System) - from LA.UM.9.6.2.r1
 -vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
@@ -2164,7 +2164,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so|cc2504016d0ce0afbc58ac95207a4b913f2ccfe9
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|398e5510db4d739de008b7230aa6e688d6c51a8a
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|19a1f7ffb8118c207aa8cb2318996605771c339a
 
-# I/O Prefetcher
+# I/O Prefetcher - from LA.UM.9.6.2.r1
 system_ext/lib/vendor.qti.hardware.iop@2.0.so|aad67526568b33128f087c7f5f7a4e81da26b0bc
 system_ext/lib64/vendor.qti.hardware.iop@2.0.so|3da38cf59259d9327c1d05e7f9eed72628998303
 vendor/lib/libqti-iopd-client.so|7ce1fb3256642e8ce2303e66f8224fe52c64c62c
@@ -2174,11 +2174,11 @@ vendor/lib64/libqti-iopd-client.so|512e12a6a86eb2dc5ad73a590c996d0e67e2ec1a
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|ab7e9d16481a52a919cd7484eed480913ce29e66
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|a99da96aa7abf8b9a4cb950113d7fe4ccbe4ff6c
 
-# Media
+# Media - from LA.UM.9.6.2.r1
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
 vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 
-# Performance
+# Performance - from LA.UM.9.6.2.r1
 system_ext/etc/perf/wlc_model.tflite|83cf4df067bc14c78f31943f32bcaf6f32419125
 system_ext/lib/libqti-perfd-client_system.so|79be2c728553c6c065a82441a9b4f7a32384f862
 system_ext/lib/libqti-util_system.so|9c2e79c7e18964f50b81e3304f3d465809dac21b
@@ -2209,13 +2209,13 @@ vendor/lib64/libqti-perfd.so|3446c05a2ad52222b339f47d4c6d6b85198e2b2d
 vendor/lib64/libqti-util.so|834cc98315887e57a5f229f9ee1a0d20d0d8f4c3
 vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
 
-# Peripheral manager
+# Peripheral manager - from LA.UM.9.6.3.r1
 vendor/bin/pm-proxy|cfa016d416eb95949c76090bde8ccffcd5517159
 vendor/bin/pm-service|06608529b6125c5362dee26f459c52d9e51f3c92
 vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
-# Qualcomm
+# Qualcomm - from LA.UM.8.6.2.r1
 -vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
 -vendor/lib64/libgpustats.so|a899ae72983277442cdacf8f43271986c91ce710
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
@@ -2464,7 +2464,7 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 vendor/lib64/vendor.qti.voiceprint@1.0.so|aeca80d0859dd1084b4a6585779d79b48ae9aa76
 
-# Secure MSM
+# Secure MSM - from LA.UM.9.6.2.r1
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|57d280849768bc5d5e9e954b9ac90a5a31c54172
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|14751f15eba2a00f20a39d1ec4fccbacb819ab34
@@ -2523,7 +2523,7 @@ vendor/lib64/libwvhidl.so|ae215b1afd38cda71818dfde44c6186bd4ec2cb1
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|7bc3032b846e896c67dac44f413db78d2acbf99b
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|16baab27397ad493e845515c20ac0c0c063c775d
 
-# SCVE (Snapdragon Computer Vision Engine)
+# SCVE (Snapdragon Computer Vision Engine) - from LA.UM.9.6.2.r1
 system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|652aa6b2b0a1f5605429e2ded12a760ce39bb26d
 system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|e80c57426746b30be01fba239ac7c00881c41da0
 system_ext/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|9407283f2bdb87b86ac700254c1033007e48bea2
@@ -2533,7 +2533,7 @@ system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|8613a107e2e318f67
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|1374198e008c0bcc9f09172eb70dddc458f4790b
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0.so|b7a1fd4813ce3204d140ca8110fda6018c709daa
 
-# Sensors
+# Sensors - from LA.UM.9.6.2.r1
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|81934fd454fd30282ef1a8a90b7374317f6c42de
 system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|32257292ed8c5b2e2f905571b82bb26383a1a041
 vendor/bin/sensors.qti|2fcd877588973b5088108a7f5e85fdbae5270423
@@ -2554,7 +2554,7 @@ vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
 vendor/lib64/sensor_calibrate.so|219ee0b1bdcc6a3f0b9261f6fc31838916856c99
 vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
 
-# Soter
+# Soter - from LA.UM.9.6.2.r1
 -system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar|83227d66df8f047d69f5b90fe16339794fa75ce3
 system_ext/lib/vendor.qti.hardware.soter@1.0.so|ee7fa7535c5bc2a83fbe86e63bb145865b53d8c1
 system_ext/lib64/vendor.qti.hardware.soter@1.0.so|45ac80a22da80ed98a1647628085e575b1bec185
@@ -2567,7 +2567,7 @@ vendor/lib/vendor.qti.hardware.soter@1.0.so|cb442088af371b0e16e5e8bf24e7eca9b262
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|1fda14121c28b3d49fcda811ebe3b670178e988e
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|9424d8a625bbc9e399597ecb0ac80402fae7782c
 
-# Thermal
+# Thermal - from MIUI
 -vendor/lib/libthermalclient.so|a18540af4380aab3d6e6e880241b0c74c7967c0b
 -vendor/lib64/libthermalclient.so|13c27adf6e6ce8728854542c3ed8f3d12ade5615
 vendor/bin/thermal-engine|a8bc9bb1ed717c886316dd42b8af0ebb59b2bbec
@@ -2580,12 +2580,12 @@ vendor/lib/libthermalfeature.so|b2a90496eb99301cc0f065fe97782358858668a3
 vendor/lib64/hw/thermal.msm8953.so|9de56e5cccbb4cf1d507877ec328db2bd229c2c2
 vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
-# Time
+# Time - from LA.UM.9.6.3.r1
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
-# UBWC (Universal Bandwidth Compression)
+# UBWC (Universal Bandwidth Compression) - from LA.UM.9.6.2.r1
 vendor/lib/libUBWC.so|30dd8962cb8ab5bf5caeff2f74e3639691c0e6fe
 vendor/lib/libfastcrc.so|76f2babe2db1092e2d4513d80d457e69c91ec269
 vendor/lib/libstreamparser.so|5f6d72017b1aa1ae457f6de54b8c101568e22cb8
