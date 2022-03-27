@@ -39,4 +39,4 @@ PRODUCT_PACKAGES += \
 endif
 
 # Blur
-TARGET_USES_BLUR := true
+TARGET_USES_BLUR := false
