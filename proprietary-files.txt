@@ -1759,8 +1759,8 @@ vendor/lib64/libvideoutils.so|4c5b876a24f0a202e2a0b0895b3646bc3db8dd2c
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 -vendor/app/CneApp/CneApp.apk|6e355ca21e53c8a84794f06e1057e62ff2df1a58
 -vendor/app/IWlanService/IWlanService.apk|08472592f4a21ad806c487fc0c70c10bbe7c7ac2
-etc/permissions/privapp-permissions-qti.xml|3eda27003bad39514039190d0d7eb675ba034cb9
-etc/sysconfig/qti_whitelist.xml|e280dc9a012bd864c3fa91cf4439338d54218730
+etc/permissions/privapp-permissions-qti.xml|937752129fb20114d4c36f251ee4d2571132990c
+etc/sysconfig/qti_whitelist.xml|4b32a1f25aad9ba025d79ad3a3a7c51d02767fbf
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
 system_ext/bin/dpmd|8a582ec5f23d8f43922566a12840da8ced8e6ab7
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -2554,18 +2554,19 @@ vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
 vendor/lib64/sensor_calibrate.so|219ee0b1bdcc6a3f0b9261f6fc31838916856c99
 vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
 
-# Soter - from LA.UM.9.6.2.r1
--system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar|83227d66df8f047d69f5b90fe16339794fa75ce3
-system_ext/lib/vendor.qti.hardware.soter@1.0.so|ee7fa7535c5bc2a83fbe86e63bb145865b53d8c1
-system_ext/lib64/vendor.qti.hardware.soter@1.0.so|45ac80a22da80ed98a1647628085e575b1bec185
-vendor/bin/SoterProvisioningTool|1d8450a26ad5f82ca44a339f7948f7ec45cb6927
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|a6ea6031c27889797b96fe29ba100924b79fe3fb
-vendor/bin/vendor.qti.hardware.soter@1.0-provision|1fcee71dc9b2cc07c6edd1f8e6c3b1d8f56befc8
+# Soter (Legacy) - from MIUI
+-product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
+-vendor/app/SoterService/SoterService.apk|a906b956cff77c2a1bcb26d8a74ecd386b50eeb2
+product/lib/vendor.qti.hardware.soter@1.0.so|45a8cbdcd816240934f523157c56e21e315e26d6
+product/lib64/vendor.qti.hardware.soter@1.0.so|eb92f6de6b7fe38c4c977e2effc33f53d825ca90
+vendor/bin/SoterProvisioningTool|7d96b4b30201294e645d684c17c6472bf3b78392
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|40eba287faa15ed67cc389b56f0595699d202666
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|2cfc85718c02e871e44a97d98399de260c7e8ba0
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so|b224448936bfb7109d1bffdfa7db56ebd31c463f
-vendor/lib/vendor.qti.hardware.soter@1.0.so|cb442088af371b0e16e5e8bf24e7eca9b2627375
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|1fda14121c28b3d49fcda811ebe3b670178e988e
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|9424d8a625bbc9e399597ecb0ac80402fae7782c
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so|0e4263c35d9e4964f5cb069980a401b534010d0e
+vendor/lib/vendor.qti.hardware.soter@1.0.so|cc5fafc92038b92c9e6045c68a89c64e935afc0b
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|011245d9368c2ab824d9cf09b802bf7739c39bb8
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|5009b4dc1e8469186530f44bd5f184a7a8f51266
 
 # Thermal - from MIUI
 -vendor/lib/libthermalclient.so|a18540af4380aab3d6e6e880241b0c74c7967c0b
