@@ -1,6 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_onclite.mk
+    $(LOCAL_DIR)/aosp_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_onclite-user \
-    nad_onclite-userdebug
+    aosp_onclite-user \
+    aosp_onclite-userdebug
