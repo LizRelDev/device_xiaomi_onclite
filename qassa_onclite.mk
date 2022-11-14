@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit QASSA stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
 QASSA_MAINTAINER := LizRelDev
 USE_PIXEL_CHARGING := true
