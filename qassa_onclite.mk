@@ -17,7 +17,7 @@ $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
 QASSA_MAINTAINER := LizRelDev
 TARGET_FACE_UNLOCK_SUPPORTED := true
-USE_PIXEL_CHARGING := true
+TARGET_USE_PIXEL_CHARGER := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
