@@ -15,13 +15,13 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit QASSA stuff.
 $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
+# QASSA OFFICIAL stuff
 QASSA_MAINTAINER := LizRelDev
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
-
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := qassa_onclite
