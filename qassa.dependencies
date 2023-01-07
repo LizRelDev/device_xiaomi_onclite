@@ -1,0 +1,23 @@
+[ 
+  { 
+    "remote"      : "github", 
+    "repository"  : "Risti699/Karamel", 
+    "branch"      : "JFla-Karamel", 
+    "clone-depth" : "1", 
+    "target_path" : "kernel/xiaomi/onclite" 
+  }, 
+  { 
+    "remote"      : "github", 
+    "repository"  : "NusantaraROM-Devices/vendor_xiaomi_onclite", 
+    "branch"      : "10-old", 
+    "clone-depth" : "1", 
+    "target_path" : "vendor/xiaomi/onclite" 
+  }, 
+  { 
+    "remote"      : "github", 
+    "repository"  : "GengKapak/GengKapak-clang", 
+    "branch"      : "13", 
+    "clone-depth" : "1", 
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-GengKapak" 
+  } 
+ ]
