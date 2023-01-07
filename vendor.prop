@@ -23,6 +23,9 @@ vendor.voice.voip.conc.disabled=true
 # Bluetooth
 vendor.qcom.bluetooth.soc=pronto
 
+# Camera
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.pixelexperience.faceunlock
+
 # Display post-processing
 ro.vendor.display.cabl=0
 ro.vendor.display.sensortype=2
