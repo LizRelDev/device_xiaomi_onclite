@@ -51,6 +51,13 @@ char const *heapminfree;
 char const *heapmaxfree;
 char const *heaptargetutilization;
 
+void set_device_props(const std::string brand, const std::string device, const std::string model,
+        const std::string name, const std::string marketname) {
+    const auto set_ro_product_prop = [](const std::string &source,
+                                        const std::string &prop,
+                                        const std::string &value) {
+@@ -103,18 +95,13 @@ void set_device_props(const std::string fingerprint, const std::string descripti
+    };
 void check_device()
 {
     struct sysinfo sys;
