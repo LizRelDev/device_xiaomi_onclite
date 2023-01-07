@@ -52,7 +52,6 @@ char const *heapmaxfree;
 char const *heaptargetutilization;
 
 void set_device_props(const std::string brand, const std::string device, const std::string model,
-        const std::string name, const std::string marketname)
 
 void check_device()
 {
