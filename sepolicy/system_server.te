@@ -6,3 +6,6 @@ r_dir_file(system_server, keylayout_file);
 
 # Fingerprint
 get_prop(system_server, fp_prop);
+
+# Allow system server battery suply rw access
+allow system_server sysfs_battery_supply:file rw_file_perms;
