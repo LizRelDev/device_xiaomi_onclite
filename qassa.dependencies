@@ -8,8 +8,8 @@
   }, 
   { 
     "remote"      : "github", 
-    "repository"  : "NusantaraROM-Devices/vendor_xiaomi_onclite", 
-    "branch"      : "10-old", 
+    "repository"  : "LizRelDev/vendor_xiaomi_onclite-Q", 
+    "branch"      : "QASSA", 
     "clone-depth" : "1", 
     "target_path" : "vendor/xiaomi/onclite" 
   }, 
