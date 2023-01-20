@@ -412,4 +412,7 @@
          autodetected from the Configuration. -->
      <bool name="config_showNavigationBar">true</bool>
 
+    
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
