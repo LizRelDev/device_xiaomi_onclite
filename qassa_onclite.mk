@@ -17,6 +17,7 @@ $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
 # QASSA OFFICIAL stuff
 QASSA_MAINTAINER := LizRelDev
+TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGER := true
 
