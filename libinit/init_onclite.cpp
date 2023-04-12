@@ -1,7 +1,7 @@
 /*
    Copyright (c) 2016, The CyanogenMod Project
-   Copyright (c) 2019, The LineageOS Project
-
+   Copyright (C) 2019 The LineageOS Project.
+   Copyright (C) 2020-2021 The MoKee Open Source Project
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
    met:
@@ -14,7 +14,6 @@
     * Neither the name of The Linux Foundation nor the names of its
       contributors may be used to endorse or promote products derived
       from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
@@ -27,6 +26,7 @@
    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
 
 #include <cstdlib>
 #include <fstream>
@@ -42,58 +42,92 @@
 #include "property_service.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
+using std::string;
 
-char const *heapstartsize;
-char const *heapgrowthlimit;
-char const *heapsize;
-char const *heapminfree;
-char const *heapmaxfree;
-char const *heaptargetutilization;
-
-void set_device_props(const std::string brand, const std::string device, const std::string model,
-
-void check_device()
+void property_override(string prop, string value)
 {
-    struct sysinfo sys;
+    auto pi = (prop_info*) __system_property_find(prop.c_str());
 
+    if (pi != nullptr)
+        __system_property_update(pi, value.c_str(), value.size());
+    else
+        __system_property_add(prop.c_str(), prop.size(), value.c_str(), value.size());
+}
+
+void vendor_load_properties()
+{
+    string device, model, desc;
+
+    string region = GetProperty("ro.boot.hwcountry", "");
+    string hwversion = GetProperty("ro.boot.hwversion", "");
+
+    if (region == "India" && hwversion == "1.19.0") {
+        device = "onc";
+        model = "Redmi Y3";
+    } else {
+        device = "onclite";
+        model = "Redmi 7";
+    }
+
+    // Override all partitions' props
+    string prop_partitions[] = { "", "odm.", "product.", "system.",
+                    "system_ext.", "bootimage.", "vendor." };
+
+    for (const string &prop : prop_partitions) {
+        property_override(string("ro.product.") + prop + string("name"), device);
+        property_override(string("ro.product.") + prop + string("device"), device);
+        property_override(string("ro.product.") + prop + string("model"), model);
+        property_override(string("ro.") + prop + string("build.product"), device);
+    }
+
+    // Set dalvik heap configuration
+    string heapstartsize, heapgrowthlimit, heapsize, heapminfree,
+            heapmaxfree, heaptargetutilization;
+
+    struct sysinfo sys;
     sysinfo(&sys);
 
-    if (sys.totalram > 5072ull * 1024 * 1024) {
-        // from - phone-xhdpi-6144-dalvik-heap.mk
-        heapstartsize = "16m";
-        heapgrowthlimit = "256m";
-        heapsize = "512m";
-        heaptargetutilization = "0.5";
-        heapminfree = "8m";
-        heapmaxfree = "32m";
-    } else if (sys.totalram > 3072ull * 1024 * 1024) {
+    if (sys.totalram > 3072ull * 1024 * 1024) {
+        // Set for 4GB RAM
         // from - phone-xxhdpi-4096-dalvik-heap.mk
         heapstartsize = "8m";
         heapgrowthlimit = "256m";
         heapsize = "512m";
         heaptargetutilization = "0.6";
-        heapminfree = "8m";
+        heapminfree = "4m";
         heapmaxfree = "16m";
-    } else {
+    } else if (sys.totalram > 2048ull * 1024 * 1024) {
+        // Set for 3GB RAM
         // from - phone-xhdpi-2048-dalvik-heap.mk
         heapstartsize = "8m";
         heapgrowthlimit = "192m";
         heapsize = "512m";
         heaptargetutilization = "0.75";
-        heapminfree = "512k";
+        heapminfree = "2m";
+        heapmaxfree = "8m";
+    } else {
+        // Set for 2GB RAM
+        // from go_defaults_common.prop
+        heapstartsize = "8m";
+        heapgrowthlimit = "128m";
+        heapsize = "256m";
+        heaptargetutilization = "0.75";
+        heapminfree = "2m";
         heapmaxfree = "8m";
     }
-}
 
-void vendor_load_properties()
-{
-    check_device();
+    property_override("dalvik.vm.heapstartsize", heapstartsize);
+    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_override("dalvik.vm.heapsize", heapsize);
+    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
-    property_set("dalvik.vm.heapstartsize", heapstartsize);
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", heapsize);
-    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
+    // SafetyNet Workaround
+    property_override("ro.boot.verifiedbootstate", "green");
+
+    property_override("ro.oem_unlock_supported", "0");
+
+    // Override ro.control_privapp_permissions
+    property_override("ro.control_privapp_permissions", "log");
 }

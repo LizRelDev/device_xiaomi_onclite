@@ -27,15 +27,14 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := qassa_onclite
 PRODUCT_DEVICE := onclite
-PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="onc" \
     TARGET_DEVICE="onc" \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys"
+    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
 
-BUILD_FINGERPRINT := "google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys"
+BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
