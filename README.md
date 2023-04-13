@@ -17,7 +17,7 @@ budget smartphone from Xiaomi.
  GPU | Adreno 506
  Memory | 2/3 GB RAM
  Shipped Android Version | 9.0
- Storage | 32 GB
+ Storage | 16/32 GB
  MicroSD | Up to 512 GB (dedicated slot)
  Battery | Non-removable Li-Polymer 4000 mAh battery
  Dimensions | 158.6 x 76.4 x 8.4 mm
