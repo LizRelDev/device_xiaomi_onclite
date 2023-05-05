@@ -631,51 +631,6 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     group system
     disabled
 
-#ifdef VENDOR_EIDT
-#wushuxun@PSW.CN.Wifi.Network.internet.1074197, 2018/11/08,
-#Add for make WCNSS_qcom_cfg.ini Rom-update.
-
-on post-fs-data
-    chmod 0666 /mnt/vendor/persist/WCNSS_qcom_cfg.ini
-
-# To rename ini_temp.txt into WCNSS_qcom_cfg.ini
-on property:oppo.wifi.iniromupdate=*
-    copy /mnt/vendor/persist/ini_temp.txt /mnt/vendor/persist/WCNSS_qcom_cfg.ini
-    chmod 0666 /mnt/vendor/persist/WCNSS_qcom_cfg.ini
-
-# To enable /mnt/vendor/persist folder access right for ini romupdate feature
-on property:oppo.wifi.enablepersistaccess=*
-    chmod 0777 /mnt/vendor/persist
-
-# To restore /mnt/vendor/persist folder access right for ini romupdate feature
-on property:oppo.wifi.restorepersistaccess=*
-    chmod 0771 /mnt/vendor/persist
-
-#endif /* VENDOR_EDIT */
-
-#ifdef VENDOR_EDIT
-#Guotian.Wu@PSW.CN.WiFi.Hardware.1070277 2019/07/24  Add for wifi rf testing
-service wifirfmodetest /system/bin/wifirftest
-    class main
-    socket wifirf stream 0660 system system
-    user root
-    oneshot
-    disabled
-
-on property:oppo.wifirftest.enable=1
-    start wifirfmodetest
-
-on property:oppo.wifirftest.enable=0
-    stop wifirfmodetest
-#endif
-
-# Smart Charging
-on boot
-    chmod 0666 /sys/class/power_supply/battery/input_suspend
-    chmod 0666 /sys/class/power_supply/battery/charging_enabled
-    chown system system /sys/class/power_supply/battery/input_suspend
-    chown system system /sys/class/power_supply/battery/charging_enabled
-
 # FPS Info
     chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
     chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
