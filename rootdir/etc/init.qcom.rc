@@ -89,6 +89,9 @@ on early-boot
     chmod 0664 /mnt/vendor/persist/sensors/sensors_settings
 
     # Graphics
+
+    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+    chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
     chown system graphics /sys/class/graphics/fb0/idle_time
     chmod 0664 /sys/class/graphics/fb0/idle_time
     chown system graphics /sys/class/graphics/fb0/dynamic_fps
@@ -630,7 +633,3 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
-
-# FPS Info
-    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
-    chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
