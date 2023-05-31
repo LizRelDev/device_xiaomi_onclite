@@ -1,4 +1,4 @@
-Copyright (C) 2019-2020 The LineageOS Project
+Copyright (C) Android Open Source Project
  
   Device configuration for Xiaomi Redmi 7
  =========================================
@@ -15,9 +15,9 @@ budget smartphone from Xiaomi.
  SoC | Qualcomm MSM8953 Snapdragon 632
  CPU | Octa core (1.8 GHz, Quad core, Kryo 250 + 1.8 GHz Quad core, Kryo 250)
  GPU | Adreno 506
- Memory | 2/3 GB RAM
+ Memory | 2/3/4 GB RAM
  Shipped Android Version | 9.0
- Storage | 16/32 GB
+ Storage | 16/32/64 GB
  MicroSD | Up to 512 GB (dedicated slot)
  Battery | Non-removable Li-Polymer 4000 mAh battery
  Dimensions | 158.6 x 76.4 x 8.4 mm
