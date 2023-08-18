@@ -7,6 +7,7 @@ Device Changelog:
  - Add support Pixel Live Wallpapers
  - Fix Pixel Live Wallpapers to Avoid Lagging
  - Fixed Display FPS info in QuickSettings
+ - Added Always On Display screen
  - Added Device info for Settings #keepQASSA
  - Fixed stuck Screen Recorder after recording
  - And Many More!
