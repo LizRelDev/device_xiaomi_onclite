@@ -1,0 +1,23 @@
+=================================
+Changelogs QASSA patch date: 17/08/2023
+
+Device Changelog:
+ - Revert: System.prop: Disable client composition cache
+ - Add support for Smart Pixels
+ - Add support Pixel Live Wallpapers
+ - Fix Pixel Live Wallpapers to Avoid Lagging
+ - Fixed Display FPS info in QuickSettings
+ - Added Device info for Settings #keepQASSA
+ - Fixed stuck Screen Recorder after recording
+ - And Many More!
+
+
+
+Credit & Thanks:
+ - @Kaguyaasama @hadadrjt @Dhina_17 for the trees
+ - @Kaguyaasama for the best Kernel ever Builded
+ - @deny2311 thanks for borrowing me the servers
+ - Thanks to #GengKapak and many more for their support 👊😎
+ - NgantuProject Team
+ - L.Z.F.C Prjct
+=================================
