@@ -8,7 +8,7 @@
   }, 
   { 
     "remote"      : "github", 
-    "repository"  : "LizRelDev/vendor_xiaomi_onclite-Q", 
+    "repository"  : "LizRelDev/vendor_xiaomi_onclite", 
     "branch"      : "QASSA", 
     "clone-depth" : "1", 
     "target_path" : "vendor/xiaomi/onclite" 
