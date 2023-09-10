@@ -412,7 +412,3 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_PACKAGES += \
     NusantaraPapers
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
