@@ -33,9 +33,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="onc" \
     TARGET_DEVICE="onc" \
-    PRIVATE_BUILD_DESC="redfin-user 13 TQ3A.230901.001 10750268 release-keys"
+    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/redfin/redfin:13/TQ3A.230901.001/10750268:user/release-keys"
+BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
