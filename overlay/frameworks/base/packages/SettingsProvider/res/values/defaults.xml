@@ -1,0 +1,3 @@
+    <!-- Comma-separated list of bluetooth, wifi, and cell. -->
+    <string name="def_airplane_mode_radios" translatable="false">cell</string>
+    <string name="def_bluetooth_mode_radios" translatable="false">cell</string>
